@@ -1,0 +1,34 @@
+{"timestamp":"2025-07-20T22:13:17.006693","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-20T22:13:17.007839","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/etl_pipeline_v2.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-20T22:13:17.885339","level":"info","event":"====== WebDriver manager ======","logger":"WDM"}
+{"timestamp":"2025-07-20T22:13:18.022661","level":"info","event":"Get LATEST chromedriver version for google-chrome","logger":"WDM"}
+{"timestamp":"2025-07-20T22:13:18.524909","level":"info","event":"Get LATEST chromedriver version for google-chrome","logger":"WDM"}
+{"timestamp":"2025-07-20T22:13:19.254260","level":"info","event":"Driver [/opt/airflow/scripts/.wdm/drivers/chromedriver/linux64/138.0.7204.157/chromedriver-linux64/THIRD_PARTY_NOTICES.chromedriver] found in cache","logger":"WDM"}
+{"timestamp":"2025-07-20T22:13:19.277549","level":"warning","event":"ChromeDriver setup failed: [Errno 8] Exec format error: '/opt/airflow/scripts/.wdm/drivers/chromedriver/linux64/138.0.7204.157/chromedriver-linux64/THIRD_PARTY_NOTICES.chromedriver'","logger":"scraper"}
+{"timestamp":"2025-07-20T22:13:20.395908","level":"info","event":"Chrome driver initialized with system Chrome","logger":"scraper"}
+{"timestamp":"2025-07-20T22:13:20.396492","level":"info","event":"Starting DealApp scraping with max_properties=100...","logger":"scraper"}
+{"timestamp":"2025-07-20T22:13:20.396728","level":"info","event":"Trying URL 1/4: https://dealapp.sa/ar/عقارات/الرياض/جميع_العقارات/بيع_و_إيجار","logger":"scraper"}
+{"timestamp":"2025-07-20T22:13:25.596788","level":"info","event":"Listings page loaded","logger":"scraper"}
+{"timestamp":"2025-07-20T22:13:28.597836","level":"info","event":"Applying filters for city: الرياض, district: None","logger":"scraper"}
+{"timestamp":"2025-07-20T22:13:28.622125","level":"info","event":"Checking available filter elements...","logger":"scraper"}
+{"timestamp":"2025-07-20T22:13:28.705085","level":"info","event":"Found 525 total elements on page","logger":"scraper"}
+{"timestamp":"2025-07-20T22:13:28.755127","level":"info","event":"Filters applied successfully","logger":"scraper"}
+{"timestamp":"2025-07-20T22:13:30.755615","level":"info","event":"Starting scroll to load properties (max: 100)...","logger":"scraper"}
+{"timestamp":"2025-07-20T22:13:35.828887","level":"info","event":"Attempt 1: Found 10 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T22:13:38.960842","level":"info","event":"Attempt 2: Found 20 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T22:13:42.046312","level":"info","event":"Attempt 3: Found 30 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T22:13:45.123245","level":"info","event":"Attempt 4: Found 40 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T22:13:48.203591","level":"info","event":"Attempt 5: Found 50 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T22:13:53.302307","level":"info","event":"Attempt 6: Found 60 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T22:13:56.405108","level":"info","event":"Attempt 7: Found 70 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T22:13:59.505340","level":"info","event":"Attempt 8: Found 80 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T22:14:02.603040","level":"info","event":"Attempt 9: Found 90 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T22:14:05.715963","level":"info","event":"Attempt 10: Found 100 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T22:14:05.716266","level":"info","event":"Reached target of 100 properties, stopping scroll","logger":"scraper"}
+{"timestamp":"2025-07-20T22:14:05.716376","level":"info","event":"Scrolling completed after 10 attempts","logger":"scraper"}
+{"timestamp":"2025-07-20T22:14:05.741997","level":"info","event":"Found 100 property cards after scrolling","logger":"scraper"}
+{"timestamp":"2025-07-20T22:14:05.742134","level":"info","event":"Processing card 1/100","logger":"scraper"}
+{"timestamp":"2025-07-20T22:14:11.901895","level":"info","event":"Processing card 51/100","logger":"scraper"}
+{"timestamp":"2025-07-20T22:14:17.538279","level":"info","event":"Successfully found properties with URL 1","logger":"scraper"}
+{"timestamp":"2025-07-20T22:14:17.538602","level":"info","event":"Successfully scraped 79 unique properties from DealApp","logger":"scraper"}
+{"timestamp":"2025-07-20T22:14:17.675080","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

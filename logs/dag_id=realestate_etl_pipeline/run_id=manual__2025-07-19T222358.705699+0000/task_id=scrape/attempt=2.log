@@ -1,0 +1,46 @@
+{"timestamp":"2025-07-19T22:40:46.045607","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-19T22:40:46.047443","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/etl_pipeline.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-19T22:40:48.657195","level":"info","event":"====== WebDriver manager ======","logger":"WDM"}
+{"timestamp":"2025-07-19T22:40:50.067662","level":"info","event":"Get LATEST chromedriver version for google-chrome","logger":"WDM"}
+{"timestamp":"2025-07-19T22:40:50.415891","level":"info","event":"Get LATEST chromedriver version for google-chrome","logger":"WDM"}
+{"timestamp":"2025-07-19T22:40:50.776706","level":"info","event":"Driver [/opt/airflow/scripts/.wdm/drivers/chromedriver/linux64/138.0.7204.157/chromedriver-linux64/THIRD_PARTY_NOTICES.chromedriver] found in cache","logger":"WDM"}
+{"timestamp":"2025-07-19T22:40:50.798300","level":"warning","event":"ChromeDriver setup failed: [Errno 8] Exec format error: '/opt/airflow/scripts/.wdm/drivers/chromedriver/linux64/138.0.7204.157/chromedriver-linux64/THIRD_PARTY_NOTICES.chromedriver'","logger":"scraper"}
+{"timestamp":"2025-07-19T22:40:52.981234","level":"info","event":"Chrome driver initialized with system Chrome","logger":"scraper"}
+{"timestamp":"2025-07-19T22:40:52.981621","level":"info","event":"Starting DealApp scraping...","logger":"scraper"}
+{"timestamp":"2025-07-19T22:40:52.981749","level":"info","event":"Navigating to https://dealapp.sa/ar/عقارات/الرياض/جميع_العقارات/بيع_و_إيجار","logger":"scraper"}
+{"timestamp":"2025-07-19T22:40:57.451697","level":"info","event":"Listings page loaded","logger":"scraper"}
+{"timestamp":"2025-07-19T22:40:57.451961","level":"info","event":"Applying filters for city: الرياض, district: None","logger":"scraper"}
+{"timestamp":"2025-07-19T22:40:57.777741","level":"info","event":"Filters applied successfully","logger":"scraper"}
+{"timestamp":"2025-07-19T22:40:57.778047","level":"info","event":"Starting scroll to load properties (max: 5000)...","logger":"scraper"}
+{"timestamp":"2025-07-19T22:40:57.963725","level":"info","event":"Attempt 1: Found 10 properties","logger":"scraper"}
+{"timestamp":"2025-07-19T22:41:00.087984","level":"info","event":"Attempt 2: Found 10 properties","logger":"scraper"}
+{"timestamp":"2025-07-19T22:41:02.155125","level":"info","event":"Attempt 3: Found 10 properties","logger":"scraper"}
+{"timestamp":"2025-07-19T22:41:04.324779","level":"info","event":"Attempt 4: Found 10 properties","logger":"scraper"}
+{"timestamp":"2025-07-19T22:41:06.399220","level":"info","event":"Attempt 5: Found 10 properties","logger":"scraper"}
+{"timestamp":"2025-07-19T22:41:08.461303","level":"info","event":"Attempt 6: Found 10 properties","logger":"scraper"}
+{"timestamp":"2025-07-19T22:41:08.461763","level":"info","event":"No new properties found for 5 attempts, trying alternative scroll method","logger":"scraper"}
+{"timestamp":"2025-07-19T22:41:09.544226","level":"info","event":"Still no new content after alternative method, stopping","logger":"scraper"}
+{"timestamp":"2025-07-19T22:41:09.544432","level":"info","event":"Scrolling completed after 6 attempts","logger":"scraper"}
+{"timestamp":"2025-07-19T22:41:09.567782","level":"info","event":"Found 10 property cards after scrolling","logger":"scraper"}
+{"timestamp":"2025-07-19T22:41:09.568023","level":"info","event":"Processing card 1/10","logger":"scraper"}
+{"timestamp":"2025-07-19T22:41:09.866394","level":"info","event":"Added property: ارض للبيع - 158800507.0 SAR","logger":"scraper"}
+{"timestamp":"2025-07-19T22:41:09.866580","level":"info","event":"Processing card 2/10","logger":"scraper"}
+{"timestamp":"2025-07-19T22:41:10.122464","level":"info","event":"Added property: شقة للإيجار - 3500.0 SAR","logger":"scraper"}
+{"timestamp":"2025-07-19T22:41:10.122755","level":"info","event":"Processing card 3/10","logger":"scraper"}
+{"timestamp":"2025-07-19T22:41:10.351636","level":"info","event":"Added property: شقة للإيجار - 75000.0 SAR","logger":"scraper"}
+{"timestamp":"2025-07-19T22:41:10.351808","level":"info","event":"Processing card 4/10","logger":"scraper"}
+{"timestamp":"2025-07-19T22:41:10.561906","level":"info","event":"Added property: شقة للبيع - 1400000.0 SAR","logger":"scraper"}
+{"timestamp":"2025-07-19T22:41:10.570749","level":"info","event":"Processing card 5/10","logger":"scraper"}
+{"timestamp":"2025-07-19T22:41:10.904814","level":"info","event":"Added property: برج للبيع - 2190000.0 SAR","logger":"scraper"}
+{"timestamp":"2025-07-19T22:41:10.905029","level":"info","event":"Processing card 6/10","logger":"scraper"}
+{"timestamp":"2025-07-19T22:41:11.129915","level":"info","event":"Added property: فيلا للبيع - 2000000.0 SAR","logger":"scraper"}
+{"timestamp":"2025-07-19T22:41:11.130159","level":"info","event":"Processing card 7/10","logger":"scraper"}
+{"timestamp":"2025-07-19T22:41:11.355170","level":"info","event":"Added property: شقة للبيع - 1100000.0 SAR","logger":"scraper"}
+{"timestamp":"2025-07-19T22:41:11.355394","level":"info","event":"Processing card 8/10","logger":"scraper"}
+{"timestamp":"2025-07-19T22:41:11.546423","level":"info","event":"Added property: ارض للبيع - 9000000.0 SAR","logger":"scraper"}
+{"timestamp":"2025-07-19T22:41:11.546697","level":"info","event":"Processing card 9/10","logger":"scraper"}
+{"timestamp":"2025-07-19T22:41:11.730348","level":"info","event":"Added property: ارض للبيع - 5000050.0 SAR","logger":"scraper"}
+{"timestamp":"2025-07-19T22:41:11.730540","level":"info","event":"Processing card 10/10","logger":"scraper"}
+{"timestamp":"2025-07-19T22:41:11.910816","level":"info","event":"Added property: ارض للبيع - 4050000.0 SAR","logger":"scraper"}
+{"timestamp":"2025-07-19T22:41:11.911036","level":"info","event":"Successfully scraped 10 unique properties from DealApp","logger":"scraper"}
+{"timestamp":"2025-07-19T22:41:12.065815","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

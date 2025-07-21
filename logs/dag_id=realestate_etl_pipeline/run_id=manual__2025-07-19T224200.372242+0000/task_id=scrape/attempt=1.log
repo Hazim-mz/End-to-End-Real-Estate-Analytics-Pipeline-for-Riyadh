@@ -1,0 +1,22 @@
+{"timestamp":"2025-07-19T22:42:01.418474","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-19T22:42:01.419473","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/etl_pipeline.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-19T22:42:03.172617","level":"info","event":"====== WebDriver manager ======","logger":"WDM"}
+{"timestamp":"2025-07-19T22:42:03.533798","level":"info","event":"Get LATEST chromedriver version for google-chrome","logger":"WDM"}
+{"timestamp":"2025-07-19T22:42:04.027557","level":"info","event":"Get LATEST chromedriver version for google-chrome","logger":"WDM"}
+{"timestamp":"2025-07-19T22:42:04.417195","level":"info","event":"Driver [/opt/airflow/scripts/.wdm/drivers/chromedriver/linux64/138.0.7204.157/chromedriver-linux64/THIRD_PARTY_NOTICES.chromedriver] found in cache","logger":"WDM"}
+{"timestamp":"2025-07-19T22:42:04.436809","level":"warning","event":"ChromeDriver setup failed: [Errno 8] Exec format error: '/opt/airflow/scripts/.wdm/drivers/chromedriver/linux64/138.0.7204.157/chromedriver-linux64/THIRD_PARTY_NOTICES.chromedriver'","logger":"scraper"}
+{"timestamp":"2025-07-19T22:42:05.953304","level":"info","event":"Chrome driver initialized with system Chrome","logger":"scraper"}
+{"timestamp":"2025-07-19T22:42:05.960116","level":"info","event":"Starting DealApp scraping with max_properties=5000...","logger":"scraper"}
+{"timestamp":"2025-07-19T22:42:05.960326","level":"info","event":"Navigating to https://dealapp.sa/ar/عقارات/الرياض/جميع_العقارات/بيع_و_إيجار","logger":"scraper"}
+{"timestamp":"2025-07-19T22:42:11.866508","level":"info","event":"Listings page loaded","logger":"scraper"}
+{"timestamp":"2025-07-19T22:42:11.866789","level":"info","event":"Applying filters for city: الرياض, district: None","logger":"scraper"}
+{"timestamp":"2025-07-19T22:42:12.494153","level":"info","event":"Filters applied successfully","logger":"scraper"}
+{"timestamp":"2025-07-19T22:42:12.494409","level":"info","event":"Starting scroll to load properties (max: 5000)...","logger":"scraper"}
+{"timestamp":"2025-07-19T22:42:12.529881","level":"info","event":"Attempt 1: Found 0 properties","logger":"scraper"}
+{"timestamp":"2025-07-19T22:42:14.595248","level":"info","event":"Attempt 2: Found 10 properties","logger":"scraper"}
+{"timestamp":"2025-07-19T22:42:16.658606","level":"info","event":"Attempt 3: Found 10 properties","logger":"scraper"}
+{"timestamp":"2025-07-19T22:42:18.774584","level":"info","event":"Attempt 4: Found 10 properties","logger":"scraper"}
+{"timestamp":"2025-07-19T22:42:20.846784","level":"info","event":"Attempt 5: Found 10 properties","logger":"scraper"}
+{"timestamp":"2025-07-19T22:42:22.898292","level":"info","event":"Attempt 6: Found 10 properties","logger":"scraper"}
+{"timestamp":"2025-07-19T22:42:22.927639Z","level":"error","event":"Server indicated the task shouldn't be running anymore. Terminating process","detail":{"detail":{"reason":"not_found","message":"Task Instance not found"}},"logger":"task"}
+{"timestamp":"2025-07-19T22:42:22.949794Z","level":"error","event":"Task killed!","logger":"task"}

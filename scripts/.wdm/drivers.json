@@ -1,0 +1,10 @@
+{
+    "linux64_chromedriver_138.0.7204.157_for_138.0.7204": {
+        "timestamp": "21/07/2025",
+        "binary_path": "/opt/airflow/scripts/.wdm/drivers/chromedriver/linux64/138.0.7204.157/chromedriver-linux64/chromedriver"
+    },
+    "win64_chromedriver_138.0.7204.157_for_138.0.7204": {
+        "timestamp": "20/07/2025",
+        "binary_path": "C:\\Users\\hazim\\OneDrive\\Desktop\\realestate_pipeline\\scripts\\.wdm\\drivers\\chromedriver\\win64\\138.0.7204.157\\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver"
+    }
+}

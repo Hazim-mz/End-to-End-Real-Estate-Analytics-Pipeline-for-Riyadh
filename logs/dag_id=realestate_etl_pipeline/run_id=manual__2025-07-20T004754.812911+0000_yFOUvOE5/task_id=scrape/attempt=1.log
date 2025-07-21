@@ -1,0 +1,86 @@
+{"timestamp":"2025-07-20T00:47:56.422664","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-20T00:47:56.423756","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/etl_pipeline.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-20T00:47:57.014863","level":"info","event":"====== WebDriver manager ======","logger":"WDM"}
+{"timestamp":"2025-07-20T00:47:57.194267","level":"info","event":"Get LATEST chromedriver version for google-chrome","logger":"WDM"}
+{"timestamp":"2025-07-20T00:47:57.494294","level":"info","event":"Get LATEST chromedriver version for google-chrome","logger":"WDM"}
+{"timestamp":"2025-07-20T00:47:57.775992","level":"info","event":"Driver [/opt/airflow/scripts/.wdm/drivers/chromedriver/linux64/138.0.7204.157/chromedriver-linux64/THIRD_PARTY_NOTICES.chromedriver] found in cache","logger":"WDM"}
+{"timestamp":"2025-07-20T00:47:57.794774","level":"warning","event":"ChromeDriver setup failed: [Errno 8] Exec format error: '/opt/airflow/scripts/.wdm/drivers/chromedriver/linux64/138.0.7204.157/chromedriver-linux64/THIRD_PARTY_NOTICES.chromedriver'","logger":"scraper"}
+{"timestamp":"2025-07-20T00:47:58.822813","level":"info","event":"Chrome driver initialized with system Chrome","logger":"scraper"}
+{"timestamp":"2025-07-20T00:47:58.823613","level":"info","event":"Starting DealApp scraping with max_properties=500...","logger":"scraper"}
+{"timestamp":"2025-07-20T00:47:58.823792","level":"info","event":"Trying URL 1/4: https://dealapp.sa/ar/عقارات/الرياض/جميع_العقارات/بيع_و_إيجار","logger":"scraper"}
+{"timestamp":"2025-07-20T00:48:02.068686","level":"info","event":"Listings page loaded","logger":"scraper"}
+{"timestamp":"2025-07-20T00:48:05.069297","level":"info","event":"Applying filters for city: الرياض, district: None","logger":"scraper"}
+{"timestamp":"2025-07-20T00:48:05.183470","level":"info","event":"Checking available filter elements...","logger":"scraper"}
+{"timestamp":"2025-07-20T00:48:05.359553","level":"info","event":"Found 507 total elements on page","logger":"scraper"}
+{"timestamp":"2025-07-20T00:48:05.469469","level":"info","event":"Filters applied successfully","logger":"scraper"}
+{"timestamp":"2025-07-20T00:48:07.470322","level":"info","event":"Starting scroll to load properties (max: 500)...","logger":"scraper"}
+{"timestamp":"2025-07-20T00:48:12.516325","level":"info","event":"Attempt 1: Found 10 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:48:15.693809","level":"info","event":"Attempt 2: Found 20 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:48:18.790179","level":"info","event":"Attempt 3: Found 30 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:48:21.873073","level":"info","event":"Attempt 4: Found 40 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:48:24.953910","level":"info","event":"Attempt 5: Found 50 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:48:30.040743","level":"info","event":"Attempt 6: Found 60 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:48:33.130221","level":"info","event":"Attempt 7: Found 70 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:48:36.196230","level":"info","event":"Attempt 8: Found 80 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:48:39.279634","level":"info","event":"Attempt 9: Found 90 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:48:42.364745","level":"info","event":"Attempt 10: Found 100 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:48:47.456847","level":"info","event":"Attempt 11: Found 110 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:48:50.543366","level":"info","event":"Attempt 12: Found 120 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:48:53.635834","level":"info","event":"Attempt 13: Found 130 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:48:56.724021","level":"info","event":"Attempt 14: Found 140 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:48:59.842293","level":"info","event":"Attempt 15: Found 150 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:49:04.949664","level":"info","event":"Attempt 16: Found 160 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:49:08.026188","level":"info","event":"Attempt 17: Found 170 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:49:11.096746","level":"info","event":"Attempt 18: Found 180 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:49:14.169348","level":"info","event":"Attempt 19: Found 190 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:49:17.245521","level":"info","event":"Attempt 20: Found 200 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:49:22.321872","level":"info","event":"Attempt 21: Found 210 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:49:25.411040","level":"info","event":"Attempt 22: Found 220 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:49:28.496334","level":"info","event":"Attempt 23: Found 230 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:49:31.622201","level":"info","event":"Attempt 24: Found 240 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:49:34.723227","level":"info","event":"Attempt 25: Found 250 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:49:39.868090","level":"info","event":"Attempt 26: Found 260 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:49:42.998456","level":"info","event":"Attempt 27: Found 270 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:49:46.112101","level":"info","event":"Attempt 28: Found 280 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:49:49.232883","level":"info","event":"Attempt 29: Found 290 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:49:52.352634","level":"info","event":"Attempt 30: Found 300 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:49:57.443165","level":"info","event":"Attempt 31: Found 310 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:50:00.538294","level":"info","event":"Attempt 32: Found 320 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:50:03.649898","level":"info","event":"Attempt 33: Found 330 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:50:06.786691","level":"info","event":"Attempt 34: Found 340 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:50:09.895663","level":"info","event":"Attempt 35: Found 350 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:50:15.017263","level":"info","event":"Attempt 36: Found 360 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:50:18.126969","level":"info","event":"Attempt 37: Found 370 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:50:21.231323","level":"info","event":"Attempt 38: Found 380 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:50:24.349180","level":"info","event":"Attempt 39: Found 390 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:50:27.460958","level":"info","event":"Attempt 40: Found 400 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:50:33.026615","level":"info","event":"Attempt 41: Found 410 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:50:36.138515","level":"info","event":"Attempt 42: Found 420 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:50:39.287386","level":"info","event":"Attempt 43: Found 430 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:50:42.452422","level":"info","event":"Attempt 44: Found 440 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:50:45.582925","level":"info","event":"Attempt 45: Found 450 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:50:50.753283","level":"info","event":"Attempt 46: Found 460 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:50:53.894463","level":"info","event":"Attempt 47: Found 470 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:50:57.039921","level":"info","event":"Attempt 48: Found 480 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:51:00.181297","level":"info","event":"Attempt 49: Found 490 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:51:03.285345","level":"info","event":"Attempt 50: Found 500 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:51:03.285510","level":"info","event":"Reached target of 500 properties, stopping scroll","logger":"scraper"}
+{"timestamp":"2025-07-20T00:51:03.285580","level":"info","event":"Scrolling completed after 50 attempts","logger":"scraper"}
+{"timestamp":"2025-07-20T00:51:03.319815","level":"info","event":"Found 500 property cards after scrolling","logger":"scraper"}
+{"timestamp":"2025-07-20T00:51:03.320012","level":"info","event":"Processing card 1/500","logger":"scraper"}
+{"timestamp":"2025-07-20T00:51:07.365009","level":"info","event":"Processing card 51/500","logger":"scraper"}
+{"timestamp":"2025-07-20T00:51:10.390534","level":"info","event":"Processing card 101/500","logger":"scraper"}
+{"timestamp":"2025-07-20T00:51:10.876264","level":"info","event":"Added 100 properties so far...","logger":"scraper"}
+{"timestamp":"2025-07-20T00:51:14.265402","level":"info","event":"Processing card 151/500","logger":"scraper"}
+{"timestamp":"2025-07-20T00:51:17.973005","level":"info","event":"Processing card 201/500","logger":"scraper"}
+{"timestamp":"2025-07-20T00:51:18.705255","level":"info","event":"Added 200 properties so far...","logger":"scraper"}
+{"timestamp":"2025-07-20T00:51:22.032848","level":"info","event":"Processing card 251/500","logger":"scraper"}
+{"timestamp":"2025-07-20T00:51:26.809131","level":"info","event":"Processing card 301/500","logger":"scraper"}
+{"timestamp":"2025-07-20T00:51:27.876092","level":"info","event":"Added 300 properties so far...","logger":"scraper"}
+{"timestamp":"2025-07-20T00:51:31.006599","level":"info","event":"Processing card 351/500","logger":"scraper"}
+{"timestamp":"2025-07-20T00:51:34.234034","level":"info","event":"Processing card 401/500","logger":"scraper"}
+{"timestamp":"2025-07-20T00:51:35.999022","level":"info","event":"Added 400 properties so far...","logger":"scraper"}
+{"timestamp":"2025-07-20T00:51:37.554393","level":"info","event":"Processing card 451/500","logger":"scraper"}
+{"timestamp":"2025-07-20T00:51:41.647723","level":"info","event":"Successfully found properties with URL 1","logger":"scraper"}
+{"timestamp":"2025-07-20T00:51:41.648922","level":"info","event":"Successfully scraped 467 unique properties from DealApp","logger":"scraper"}
+{"timestamp":"2025-07-20T00:51:42.841342","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

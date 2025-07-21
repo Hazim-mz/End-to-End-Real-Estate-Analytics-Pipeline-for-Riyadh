@@ -1,0 +1,12 @@
+{"timestamp":"2025-07-21T20:29:28.571956","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-21T20:29:28.573088","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/etl_pipeline_v2.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-21T20:29:29.765223","level":"info","event":"Successfully connected to PostgreSQL database","logger":"loader"}
+{"timestamp":"2025-07-21T20:29:29.786751","level":"info","event":"Rent increase analysis for rent: 346.97%","logger":"loader"}
+{"timestamp":"2025-07-21T20:29:29.790020","level":"info","event":"Rent increase analysis for sale: -8.76%","logger":"loader"}
+{"timestamp":"2025-07-21T20:29:30.029135","level":"info","event":"Correlation analysis completed for rent and sale","logger":"loader"}
+{"timestamp":"2025-07-21T20:29:30.103734","level":"info","event":"Sales valuation analysis completed","logger":"loader"}
+{"timestamp":"2025-07-21T20:29:30.151408","level":"info","event":"Average price tables populated successfully","logger":"loader"}
+{"timestamp":"2025-07-21T20:29:30.161610","level":"info","event":"Yasameen 3BR report populated successfully","logger":"loader"}
+{"timestamp":"2025-07-21T20:29:30.163608","level":"info","event":"Database connection closed","logger":"loader"}
+{"timestamp":"2025-07-21T20:29:30.165053Z","level":"info","event":"Analysis tables populated.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-21T20:29:30.165472","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

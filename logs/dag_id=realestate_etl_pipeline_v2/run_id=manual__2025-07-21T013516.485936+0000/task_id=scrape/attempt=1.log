@@ -1,0 +1,61 @@
+{"timestamp":"2025-07-21T01:35:17.848313","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-21T01:35:17.849493","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/etl_pipeline_v2.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-21T01:35:19.014348","level":"info","event":"====== WebDriver manager ======","logger":"WDM"}
+{"timestamp":"2025-07-21T01:35:19.174949","level":"info","event":"Get LATEST chromedriver version for google-chrome","logger":"WDM"}
+{"timestamp":"2025-07-21T01:35:19.466835","level":"info","event":"Get LATEST chromedriver version for google-chrome","logger":"WDM"}
+{"timestamp":"2025-07-21T01:35:19.756223","level":"info","event":"Driver [/opt/airflow/scripts/.wdm/drivers/chromedriver/linux64/138.0.7204.157/chromedriver-linux64/chromedriver] found in cache","logger":"WDM"}
+{"timestamp":"2025-07-21T01:35:20.913073","level":"info","event":"Chrome driver initialized successfully","logger":"scraper"}
+{"timestamp":"2025-07-21T01:35:20.913290","level":"info","event":"Starting DealApp scraping with max_properties=300...","logger":"scraper"}
+{"timestamp":"2025-07-21T01:35:20.913382","level":"info","event":"Trying URL 1/4: https://dealapp.sa/ar/عقارات/الرياض/جميع_العقارات/بيع_و_إيجار","logger":"scraper"}
+{"timestamp":"2025-07-21T01:35:23.705477","level":"info","event":"Listings page loaded","logger":"scraper"}
+{"timestamp":"2025-07-21T01:35:26.704351","level":"info","event":"Applying filters for city: الرياض, district: None","logger":"scraper"}
+{"timestamp":"2025-07-21T01:35:26.719362","level":"info","event":"Checking available filter elements...","logger":"scraper"}
+{"timestamp":"2025-07-21T01:35:26.784936","level":"info","event":"Found 516 total elements on page","logger":"scraper"}
+{"timestamp":"2025-07-21T01:35:26.829625","level":"info","event":"Filters applied successfully","logger":"scraper"}
+{"timestamp":"2025-07-21T01:35:28.830192","level":"info","event":"Starting scroll to load properties (max: 300)...","logger":"scraper"}
+{"timestamp":"2025-07-21T01:35:33.853684","level":"info","event":"Attempt 1: Found 10 properties","logger":"scraper"}
+{"timestamp":"2025-07-21T01:35:36.933388","level":"info","event":"Attempt 2: Found 20 properties","logger":"scraper"}
+{"timestamp":"2025-07-21T01:35:40.011708","level":"info","event":"Attempt 3: Found 30 properties","logger":"scraper"}
+{"timestamp":"2025-07-21T01:35:43.087078","level":"info","event":"Attempt 4: Found 40 properties","logger":"scraper"}
+{"timestamp":"2025-07-21T01:35:46.154101","level":"info","event":"Attempt 5: Found 50 properties","logger":"scraper"}
+{"timestamp":"2025-07-21T01:35:51.258893","level":"info","event":"Attempt 6: Found 60 properties","logger":"scraper"}
+{"timestamp":"2025-07-21T01:35:54.372066","level":"info","event":"Attempt 7: Found 70 properties","logger":"scraper"}
+{"timestamp":"2025-07-21T01:35:57.476975","level":"info","event":"Attempt 8: Found 80 properties","logger":"scraper"}
+{"timestamp":"2025-07-21T01:36:00.567374","level":"info","event":"Attempt 9: Found 90 properties","logger":"scraper"}
+{"timestamp":"2025-07-21T01:36:03.657413","level":"info","event":"Attempt 10: Found 100 properties","logger":"scraper"}
+{"timestamp":"2025-07-21T01:36:08.750183","level":"info","event":"Attempt 11: Found 110 properties","logger":"scraper"}
+{"timestamp":"2025-07-21T01:36:11.825712","level":"info","event":"Attempt 12: Found 120 properties","logger":"scraper"}
+{"timestamp":"2025-07-21T01:36:14.915809","level":"info","event":"Attempt 13: Found 130 properties","logger":"scraper"}
+{"timestamp":"2025-07-21T01:36:18.019644","level":"info","event":"Attempt 14: Found 140 properties","logger":"scraper"}
+{"timestamp":"2025-07-21T01:36:21.096617","level":"info","event":"Attempt 15: Found 150 properties","logger":"scraper"}
+{"timestamp":"2025-07-21T01:36:26.192101","level":"info","event":"Attempt 16: Found 160 properties","logger":"scraper"}
+{"timestamp":"2025-07-21T01:36:29.309061","level":"info","event":"Attempt 17: Found 170 properties","logger":"scraper"}
+{"timestamp":"2025-07-21T01:36:32.424081","level":"info","event":"Attempt 18: Found 180 properties","logger":"scraper"}
+{"timestamp":"2025-07-21T01:36:35.544309","level":"info","event":"Attempt 19: Found 190 properties","logger":"scraper"}
+{"timestamp":"2025-07-21T01:36:38.676040","level":"info","event":"Attempt 20: Found 200 properties","logger":"scraper"}
+{"timestamp":"2025-07-21T01:36:43.831329","level":"info","event":"Attempt 21: Found 210 properties","logger":"scraper"}
+{"timestamp":"2025-07-21T01:36:46.989098","level":"info","event":"Attempt 22: Found 220 properties","logger":"scraper"}
+{"timestamp":"2025-07-21T01:36:50.075952","level":"info","event":"Attempt 23: Found 230 properties","logger":"scraper"}
+{"timestamp":"2025-07-21T01:36:53.170698","level":"info","event":"Attempt 24: Found 240 properties","logger":"scraper"}
+{"timestamp":"2025-07-21T01:36:56.261570","level":"info","event":"Attempt 25: Found 250 properties","logger":"scraper"}
+{"timestamp":"2025-07-21T01:37:01.350143","level":"info","event":"Attempt 26: Found 260 properties","logger":"scraper"}
+{"timestamp":"2025-07-21T01:37:04.451280","level":"info","event":"Attempt 27: Found 270 properties","logger":"scraper"}
+{"timestamp":"2025-07-21T01:37:07.549120","level":"info","event":"Attempt 28: Found 280 properties","logger":"scraper"}
+{"timestamp":"2025-07-21T01:37:10.655294","level":"info","event":"Attempt 29: Found 290 properties","logger":"scraper"}
+{"timestamp":"2025-07-21T01:37:13.746882","level":"info","event":"Attempt 30: Found 300 properties","logger":"scraper"}
+{"timestamp":"2025-07-21T01:37:13.747132","level":"info","event":"Reached target of 300 properties, stopping scroll","logger":"scraper"}
+{"timestamp":"2025-07-21T01:37:13.747238","level":"info","event":"Scrolling completed after 30 attempts","logger":"scraper"}
+{"timestamp":"2025-07-21T01:37:13.769360","level":"info","event":"Found 300 property cards after scrolling","logger":"scraper"}
+{"timestamp":"2025-07-21T01:37:13.769490","level":"info","event":"Processing card 1/300","logger":"scraper"}
+{"timestamp":"2025-07-21T01:37:19.433634","level":"info","event":"Processing card 51/300","logger":"scraper"}
+{"timestamp":"2025-07-21T01:37:23.639213","level":"info","event":"Processing card 101/300","logger":"scraper"}
+{"timestamp":"2025-07-21T01:37:25.046176","level":"info","event":"Added 100 properties so far...","logger":"scraper"}
+{"timestamp":"2025-07-21T01:37:26.649369","level":"info","event":"Processing card 151/300","logger":"scraper"}
+{"timestamp":"2025-07-21T01:37:29.598568","level":"info","event":"Processing card 201/300","logger":"scraper"}
+{"timestamp":"2025-07-21T01:37:31.615007","level":"info","event":"Added 200 properties so far...","logger":"scraper"}
+{"timestamp":"2025-07-21T01:37:32.733802","level":"info","event":"Processing card 251/300","logger":"scraper"}
+{"timestamp":"2025-07-21T01:37:35.843323","level":"info","event":"Successfully found properties with URL 1","logger":"scraper"}
+{"timestamp":"2025-07-21T01:37:35.843597","level":"info","event":"Successfully scraped 264 unique properties from DealApp","logger":"scraper"}
+{"timestamp":"2025-07-21T01:37:35.848356Z","level":"info","event":"Scraped 264 properties","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-21T01:37:35.947865","level":"info","event":"Done. Returned value was: 264","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-07-21T01:37:35.948203","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('01982a9e-f225-71cf-9d10-e525d95bb1d4'), task_id='scrape', dag_id='realestate_etl_pipeline_v2', run_id='manual__2025-07-21T01:35:16.485936+00:00', try_number=1, map_index=-1, hostname='d9baf7fb2a61', context_carrier=None, task=<Task(PythonOperator): scrape>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=1, start_date=datetime.datetime(2025, 7, 21, 1, 35, 17, 717544, tzinfo=TzInfo(UTC)), end_date=None, is_mapped=False)","logger":"task"}

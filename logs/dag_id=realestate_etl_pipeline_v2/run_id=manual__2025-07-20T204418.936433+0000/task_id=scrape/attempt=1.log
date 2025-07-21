@@ -1,0 +1,106 @@
+{"timestamp":"2025-07-20T20:44:20.483827","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-20T20:44:20.484616","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/etl_pipeline_v2.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-20T20:44:21.250803","level":"info","event":"====== WebDriver manager ======","logger":"WDM"}
+{"timestamp":"2025-07-20T20:44:21.570910","level":"info","event":"Get LATEST chromedriver version for google-chrome","logger":"WDM"}
+{"timestamp":"2025-07-20T20:44:22.196104","level":"info","event":"Get LATEST chromedriver version for google-chrome","logger":"WDM"}
+{"timestamp":"2025-07-20T20:44:22.741096","level":"info","event":"Driver [/opt/airflow/scripts/.wdm/drivers/chromedriver/linux64/138.0.7204.157/chromedriver-linux64/THIRD_PARTY_NOTICES.chromedriver] found in cache","logger":"WDM"}
+{"timestamp":"2025-07-20T20:44:22.765123","level":"warning","event":"ChromeDriver setup failed: [Errno 8] Exec format error: '/opt/airflow/scripts/.wdm/drivers/chromedriver/linux64/138.0.7204.157/chromedriver-linux64/THIRD_PARTY_NOTICES.chromedriver'","logger":"scraper"}
+{"timestamp":"2025-07-20T20:44:27.109249","level":"info","event":"Chrome driver initialized with system Chrome","logger":"scraper"}
+{"timestamp":"2025-07-20T20:44:27.110599","level":"info","event":"Starting DealApp scraping with max_properties=500...","logger":"scraper"}
+{"timestamp":"2025-07-20T20:44:27.110816","level":"info","event":"Trying URL 1/4: https://dealapp.sa/ar/عقارات/الرياض/جميع_العقارات/بيع_و_إيجار","logger":"scraper"}
+{"timestamp":"2025-07-20T20:44:31.394514","level":"info","event":"Listings page loaded","logger":"scraper"}
+{"timestamp":"2025-07-20T20:44:34.395189","level":"info","event":"Applying filters for city: الرياض, district: None","logger":"scraper"}
+{"timestamp":"2025-07-20T20:44:34.411650","level":"info","event":"Checking available filter elements...","logger":"scraper"}
+{"timestamp":"2025-07-20T20:44:34.450883","level":"info","event":"Found 486 total elements on page","logger":"scraper"}
+{"timestamp":"2025-07-20T20:44:34.478979","level":"info","event":"Filters applied successfully","logger":"scraper"}
+{"timestamp":"2025-07-20T20:44:36.479357","level":"info","event":"Starting scroll to load properties (max: 500)...","logger":"scraper"}
+{"timestamp":"2025-07-20T20:44:41.519802","level":"info","event":"Attempt 1: Found 10 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:44:44.595936","level":"info","event":"Attempt 2: Found 20 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:44:47.662771","level":"info","event":"Attempt 3: Found 30 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:44:50.755312","level":"info","event":"Attempt 4: Found 40 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:44:53.852505","level":"info","event":"Attempt 5: Found 50 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:44:58.943802","level":"info","event":"Attempt 6: Found 60 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:45:02.009824","level":"info","event":"Attempt 7: Found 70 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:45:05.081757","level":"info","event":"Attempt 8: Found 80 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:45:08.152783","level":"info","event":"Attempt 9: Found 90 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:45:11.231746","level":"info","event":"Attempt 10: Found 100 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:45:16.313324","level":"info","event":"Attempt 11: Found 110 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:45:19.383807","level":"info","event":"Attempt 12: Found 120 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:45:22.454448","level":"info","event":"Attempt 13: Found 130 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:45:25.565181","level":"info","event":"Attempt 14: Found 140 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:45:28.695953","level":"info","event":"Attempt 15: Found 150 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:45:33.803386","level":"info","event":"Attempt 16: Found 160 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:45:36.889763","level":"info","event":"Attempt 17: Found 170 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:45:39.992583","level":"info","event":"Attempt 18: Found 180 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:45:43.087828","level":"info","event":"Attempt 19: Found 190 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:45:46.171869","level":"info","event":"Attempt 20: Found 200 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:45:51.258102","level":"info","event":"Attempt 21: Found 210 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:45:54.418358","level":"info","event":"Attempt 22: Found 220 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:45:57.540116","level":"info","event":"Attempt 23: Found 230 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:46:00.658131","level":"info","event":"Attempt 24: Found 240 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:46:03.794001","level":"info","event":"Attempt 25: Found 250 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:46:08.891593","level":"info","event":"Attempt 26: Found 260 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:46:11.980018","level":"info","event":"Attempt 27: Found 270 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:46:15.061254","level":"info","event":"Attempt 28: Found 280 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:46:18.143321","level":"info","event":"Attempt 29: Found 290 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:46:21.233353","level":"info","event":"Attempt 30: Found 300 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:46:26.356190","level":"info","event":"Attempt 31: Found 310 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:46:29.481687","level":"info","event":"Attempt 32: Found 320 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:46:32.565965","level":"info","event":"Attempt 33: Found 330 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:46:35.717064","level":"info","event":"Attempt 34: Found 340 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:46:38.858202","level":"info","event":"Attempt 35: Found 350 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:46:43.973483","level":"info","event":"Attempt 36: Found 360 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:46:47.063115","level":"info","event":"Attempt 37: Found 370 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:46:50.153299","level":"info","event":"Attempt 38: Found 380 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:46:53.249759","level":"info","event":"Attempt 39: Found 390 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:46:56.342541","level":"info","event":"Attempt 40: Found 400 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:47:01.446824","level":"info","event":"Attempt 41: Found 410 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:47:04.559029","level":"info","event":"Attempt 42: Found 420 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:47:07.644323","level":"info","event":"Attempt 43: Found 430 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:47:10.741575","level":"info","event":"Attempt 44: Found 440 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:47:13.864159","level":"info","event":"Attempt 45: Found 450 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:47:18.979279","level":"info","event":"Attempt 46: Found 460 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:47:22.069969","level":"info","event":"Attempt 47: Found 470 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:47:25.173292","level":"info","event":"Attempt 48: Found 480 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:47:28.276323","level":"info","event":"Attempt 49: Found 490 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:47:31.391466","level":"info","event":"Attempt 50: Found 500 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T20:47:31.391603","level":"info","event":"Reached target of 500 properties, stopping scroll","logger":"scraper"}
+{"timestamp":"2025-07-20T20:47:31.391648","level":"info","event":"Scrolling completed after 50 attempts","logger":"scraper"}
+{"timestamp":"2025-07-20T20:47:31.425594","level":"info","event":"Found 500 property cards after scrolling","logger":"scraper"}
+{"timestamp":"2025-07-20T20:47:31.425790","level":"info","event":"Processing card 1/500","logger":"scraper"}
+{"timestamp":"2025-07-20T20:47:31.572928","level":"error","event":"Error extracting property data: cannot access local variable 'property_id' where it is not associated with a value","logger":"scraper"}
+{"timestamp":"2025-07-20T20:47:31.573064","level":"warning","event":"Card 1: No property data extracted - likely empty or invalid HTML","logger":"scraper"}
+{"timestamp":"2025-07-20T20:47:31.689512","level":"error","event":"Error extracting property data: cannot access local variable 'property_id' where it is not associated with a value","logger":"scraper"}
+{"timestamp":"2025-07-20T20:47:31.689789","level":"warning","event":"Card 2: No property data extracted - likely empty or invalid HTML","logger":"scraper"}
+{"timestamp":"2025-07-20T20:47:31.824885","level":"error","event":"Error extracting property data: cannot access local variable 'property_id' where it is not associated with a value","logger":"scraper"}
+{"timestamp":"2025-07-20T20:47:31.825139","level":"warning","event":"Card 3: No property data extracted - likely empty or invalid HTML","logger":"scraper"}
+{"timestamp":"2025-07-20T20:47:32.207630","level":"error","event":"Error extracting property data: cannot access local variable 'property_id' where it is not associated with a value","logger":"scraper"}
+{"timestamp":"2025-07-20T20:47:32.207843","level":"warning","event":"Card 4: No property data extracted - likely empty or invalid HTML","logger":"scraper"}
+{"timestamp":"2025-07-20T20:47:32.391182","level":"error","event":"Error extracting property data: cannot access local variable 'property_id' where it is not associated with a value","logger":"scraper"}
+{"timestamp":"2025-07-20T20:47:32.391397","level":"warning","event":"Card 5: No property data extracted - likely empty or invalid HTML","logger":"scraper"}
+{"timestamp":"2025-07-20T20:47:32.573425","level":"error","event":"Error extracting property data: cannot access local variable 'property_id' where it is not associated with a value","logger":"scraper"}
+{"timestamp":"2025-07-20T20:47:32.573678","level":"warning","event":"Card 6: No property data extracted - likely empty or invalid HTML","logger":"scraper"}
+{"timestamp":"2025-07-20T20:47:32.764505","level":"error","event":"Error extracting property data: cannot access local variable 'property_id' where it is not associated with a value","logger":"scraper"}
+{"timestamp":"2025-07-20T20:47:32.764744","level":"warning","event":"Card 7: No property data extracted - likely empty or invalid HTML","logger":"scraper"}
+{"timestamp":"2025-07-20T20:47:32.952795","level":"error","event":"Error extracting property data: cannot access local variable 'property_id' where it is not associated with a value","logger":"scraper"}
+{"timestamp":"2025-07-20T20:47:32.952990","level":"warning","event":"Card 8: No property data extracted - likely empty or invalid HTML","logger":"scraper"}
+{"timestamp":"2025-07-20T20:47:33.204504","level":"error","event":"Error extracting property data: cannot access local variable 'property_id' where it is not associated with a value","logger":"scraper"}
+{"timestamp":"2025-07-20T20:47:33.204806","level":"warning","event":"Card 9: No property data extracted - likely empty or invalid HTML","logger":"scraper"}
+{"timestamp":"2025-07-20T20:47:33.433430","level":"error","event":"Error extracting property data: cannot access local variable 'property_id' where it is not associated with a value","logger":"scraper"}
+{"timestamp":"2025-07-20T20:47:33.433704","level":"warning","event":"Card 10: No property data extracted - likely empty or invalid HTML","logger":"scraper"}
+{"timestamp":"2025-07-20T20:47:36.091610","level":"info","event":"Processing card 51/500","logger":"scraper"}
+{"timestamp":"2025-07-20T20:47:38.725179","level":"info","event":"Processing card 101/500","logger":"scraper"}
+{"timestamp":"2025-07-20T20:47:39.836498","level":"info","event":"Added 100 properties so far...","logger":"scraper"}
+{"timestamp":"2025-07-20T20:47:41.407382","level":"info","event":"Processing card 151/500","logger":"scraper"}
+{"timestamp":"2025-07-20T20:47:44.100087","level":"info","event":"Processing card 201/500","logger":"scraper"}
+{"timestamp":"2025-07-20T20:47:45.001466","level":"info","event":"Added 200 properties so far...","logger":"scraper"}
+{"timestamp":"2025-07-20T20:47:46.712203","level":"info","event":"Processing card 251/500","logger":"scraper"}
+{"timestamp":"2025-07-20T20:47:50.452880","level":"info","event":"Processing card 301/500","logger":"scraper"}
+{"timestamp":"2025-07-20T20:47:51.921949","level":"info","event":"Added 300 properties so far...","logger":"scraper"}
+{"timestamp":"2025-07-20T20:47:54.262846","level":"info","event":"Processing card 351/500","logger":"scraper"}
+{"timestamp":"2025-07-20T20:47:56.904868","level":"info","event":"Processing card 401/500","logger":"scraper"}
+{"timestamp":"2025-07-20T20:47:58.115395","level":"info","event":"Added 400 properties so far...","logger":"scraper"}
+{"timestamp":"2025-07-20T20:47:59.592211","level":"info","event":"Processing card 451/500","logger":"scraper"}
+{"timestamp":"2025-07-20T20:48:01.977828","level":"info","event":"Successfully found properties with URL 1","logger":"scraper"}
+{"timestamp":"2025-07-20T20:48:01.977965","level":"info","event":"Successfully scraped 470 unique properties from DealApp","logger":"scraper"}
+{"timestamp":"2025-07-20T20:48:02.084836","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

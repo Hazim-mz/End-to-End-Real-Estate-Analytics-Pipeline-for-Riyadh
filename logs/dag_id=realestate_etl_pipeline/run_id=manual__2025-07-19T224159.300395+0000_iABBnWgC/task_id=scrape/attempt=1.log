@@ -1,0 +1,28 @@
+{"timestamp":"2025-07-19T22:42:01.416599","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-19T22:42:01.417604","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/etl_pipeline.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-19T22:42:03.021481","level":"info","event":"====== WebDriver manager ======","logger":"WDM"}
+{"timestamp":"2025-07-19T22:42:03.563157","level":"info","event":"Get LATEST chromedriver version for google-chrome","logger":"WDM"}
+{"timestamp":"2025-07-19T22:42:04.012401","level":"info","event":"Get LATEST chromedriver version for google-chrome","logger":"WDM"}
+{"timestamp":"2025-07-19T22:42:04.337154","level":"info","event":"Driver [/opt/airflow/scripts/.wdm/drivers/chromedriver/linux64/138.0.7204.157/chromedriver-linux64/THIRD_PARTY_NOTICES.chromedriver] found in cache","logger":"WDM"}
+{"timestamp":"2025-07-19T22:42:04.360446","level":"warning","event":"ChromeDriver setup failed: [Errno 8] Exec format error: '/opt/airflow/scripts/.wdm/drivers/chromedriver/linux64/138.0.7204.157/chromedriver-linux64/THIRD_PARTY_NOTICES.chromedriver'","logger":"scraper"}
+{"timestamp":"2025-07-19T22:42:05.801978","level":"info","event":"Chrome driver initialized with system Chrome","logger":"scraper"}
+{"timestamp":"2025-07-19T22:42:05.802629","level":"info","event":"Starting DealApp scraping with max_properties=5000...","logger":"scraper"}
+{"timestamp":"2025-07-19T22:42:05.802766","level":"info","event":"Navigating to https://dealapp.sa/ar/عقارات/الرياض/جميع_العقارات/بيع_و_إيجار","logger":"scraper"}
+{"timestamp":"2025-07-19T22:42:11.079623","level":"info","event":"Listings page loaded","logger":"scraper"}
+{"timestamp":"2025-07-19T22:42:11.079887","level":"info","event":"Applying filters for city: الرياض, district: None","logger":"scraper"}
+{"timestamp":"2025-07-19T22:42:11.976145","level":"info","event":"Filters applied successfully","logger":"scraper"}
+{"timestamp":"2025-07-19T22:42:11.976417","level":"info","event":"Starting scroll to load properties (max: 5000)...","logger":"scraper"}
+{"timestamp":"2025-07-19T22:42:12.068953","level":"info","event":"Attempt 1: Found 0 properties","logger":"scraper"}
+{"timestamp":"2025-07-19T22:42:14.132062","level":"info","event":"Attempt 2: Found 10 properties","logger":"scraper"}
+{"timestamp":"2025-07-19T22:42:16.192424","level":"info","event":"Attempt 3: Found 10 properties","logger":"scraper"}
+{"timestamp":"2025-07-19T22:42:18.334375","level":"info","event":"Attempt 4: Found 10 properties","logger":"scraper"}
+{"timestamp":"2025-07-19T22:42:20.429072","level":"info","event":"Attempt 5: Found 10 properties","logger":"scraper"}
+{"timestamp":"2025-07-19T22:42:22.480470","level":"info","event":"Attempt 6: Found 10 properties","logger":"scraper"}
+{"timestamp":"2025-07-19T22:42:24.584031","level":"info","event":"Attempt 7: Found 10 properties","logger":"scraper"}
+{"timestamp":"2025-07-19T22:42:24.584284","level":"info","event":"No new properties found for 5 attempts, trying alternative scroll method","logger":"scraper"}
+{"timestamp":"2025-07-19T22:42:25.640302","level":"info","event":"Still no new content after alternative method, stopping","logger":"scraper"}
+{"timestamp":"2025-07-19T22:42:25.640573","level":"info","event":"Scrolling completed after 7 attempts","logger":"scraper"}
+{"timestamp":"2025-07-19T22:42:25.655866","level":"info","event":"Found 10 property cards after scrolling","logger":"scraper"}
+{"timestamp":"2025-07-19T22:42:25.656072","level":"info","event":"Processing card 1/10","logger":"scraper"}
+{"timestamp":"2025-07-19T22:42:29.704891","level":"info","event":"Successfully scraped 10 unique properties from DealApp","logger":"scraper"}
+{"timestamp":"2025-07-19T22:42:29.903157","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

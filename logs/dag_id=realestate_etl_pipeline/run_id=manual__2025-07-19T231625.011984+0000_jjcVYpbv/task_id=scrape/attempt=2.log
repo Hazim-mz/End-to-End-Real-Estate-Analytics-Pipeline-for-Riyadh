@@ -1,0 +1,18 @@
+{"timestamp":"2025-07-19T23:21:25.771358","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-19T23:21:25.772436","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/etl_pipeline.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-19T23:21:26.738915","level":"info","event":"====== WebDriver manager ======","logger":"WDM"}
+{"timestamp":"2025-07-19T23:21:26.893179","level":"info","event":"Get LATEST chromedriver version for google-chrome","logger":"WDM"}
+{"timestamp":"2025-07-19T23:21:27.183724","level":"info","event":"Get LATEST chromedriver version for google-chrome","logger":"WDM"}
+{"timestamp":"2025-07-19T23:21:27.449478","level":"info","event":"Driver [/opt/airflow/scripts/.wdm/drivers/chromedriver/linux64/138.0.7204.157/chromedriver-linux64/THIRD_PARTY_NOTICES.chromedriver] found in cache","logger":"WDM"}
+{"timestamp":"2025-07-19T23:21:27.468338","level":"warning","event":"ChromeDriver setup failed: [Errno 8] Exec format error: '/opt/airflow/scripts/.wdm/drivers/chromedriver/linux64/138.0.7204.157/chromedriver-linux64/THIRD_PARTY_NOTICES.chromedriver'","logger":"scraper"}
+{"timestamp":"2025-07-19T23:21:28.687162","level":"info","event":"Chrome driver initialized with system Chrome","logger":"scraper"}
+{"timestamp":"2025-07-19T23:21:28.687783","level":"info","event":"Starting DealApp scraping with max_properties=None...","logger":"scraper"}
+{"timestamp":"2025-07-19T23:21:28.687935","level":"info","event":"Trying URL 1/4: https://dealapp.sa/ar/عقارات/الرياض/جميع_العقارات/بيع_و_إيجار","logger":"scraper"}
+{"timestamp":"2025-07-19T23:21:32.870453","level":"info","event":"Listings page loaded","logger":"scraper"}
+{"timestamp":"2025-07-19T23:21:35.870940","level":"info","event":"Applying filters for city: الرياض, district: None","logger":"scraper"}
+{"timestamp":"2025-07-19T23:21:35.885348","level":"info","event":"Checking available filter elements...","logger":"scraper"}
+{"timestamp":"2025-07-19T23:21:35.959389","level":"info","event":"Found 507 total elements on page","logger":"scraper"}
+{"timestamp":"2025-07-19T23:21:36.002920","level":"info","event":"Filters applied successfully","logger":"scraper"}
+{"timestamp":"2025-07-19T23:21:38.003541","level":"info","event":"Starting scroll to load properties (max: ALL)...","logger":"scraper"}
+{"timestamp":"2025-07-19T23:21:38.017535Z","level":"error","event":"Server indicated the task shouldn't be running anymore. Terminating process","detail":{"detail":{"reason":"not_running","message":"TI is no longer in the running state and task should terminate","current_state":"failed"}},"logger":"task"}
+{"timestamp":"2025-07-19T23:21:38.032136Z","level":"error","event":"Task killed!","logger":"task"}

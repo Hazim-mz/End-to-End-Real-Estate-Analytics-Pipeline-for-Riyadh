@@ -1,0 +1,95 @@
+{"timestamp":"2025-07-20T00:00:01.041583","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-20T00:00:01.042671","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/etl_pipeline.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-20T00:00:02.019204","level":"info","event":"====== WebDriver manager ======","logger":"WDM"}
+{"timestamp":"2025-07-20T00:00:02.234335","level":"info","event":"Get LATEST chromedriver version for google-chrome","logger":"WDM"}
+{"timestamp":"2025-07-20T00:00:02.556859","level":"info","event":"Get LATEST chromedriver version for google-chrome","logger":"WDM"}
+{"timestamp":"2025-07-20T00:00:02.828338","level":"info","event":"There is no [linux64] chromedriver \"138.0.7204.157\" for browser google-chrome \"138.0.7204\" in cache","logger":"WDM"}
+{"timestamp":"2025-07-20T00:00:02.828608","level":"info","event":"Get LATEST chromedriver version for google-chrome","logger":"WDM"}
+{"timestamp":"2025-07-20T00:00:03.524658","level":"info","event":"WebDriver version 138.0.7204.157 selected","logger":"WDM"}
+{"timestamp":"2025-07-20T00:00:03.532472","level":"info","event":"Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/138.0.7204.157/linux64/chromedriver-linux64.zip","logger":"WDM"}
+{"timestamp":"2025-07-20T00:00:03.532722","level":"info","event":"About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/138.0.7204.157/linux64/chromedriver-linux64.zip","logger":"WDM"}
+{"timestamp":"2025-07-20T00:00:03.752164","level":"info","event":"Driver downloading response is 200","logger":"WDM"}
+{"timestamp":"2025-07-20T00:00:04.511758","level":"info","event":"Get LATEST chromedriver version for google-chrome","logger":"WDM"}
+{"timestamp":"2025-07-20T00:00:07.062216","level":"info","event":"Driver has been saved in cache [/opt/airflow/scripts/.wdm/drivers/chromedriver/linux64/138.0.7204.157]","logger":"WDM"}
+{"timestamp":"2025-07-20T00:00:07.092557","level":"warning","event":"ChromeDriver setup failed: [Errno 8] Exec format error: '/opt/airflow/scripts/.wdm/drivers/chromedriver/linux64/138.0.7204.157/chromedriver-linux64/THIRD_PARTY_NOTICES.chromedriver'","logger":"scraper"}
+{"timestamp":"2025-07-20T00:00:08.199584","level":"info","event":"Chrome driver initialized with system Chrome","logger":"scraper"}
+{"timestamp":"2025-07-20T00:00:08.200023","level":"info","event":"Starting DealApp scraping with max_properties=None...","logger":"scraper"}
+{"timestamp":"2025-07-20T00:00:08.200147","level":"info","event":"Trying URL 1/4: https://dealapp.sa/ar/عقارات/الرياض/جميع_العقارات/بيع_و_إيجار","logger":"scraper"}
+{"timestamp":"2025-07-20T00:00:11.693147","level":"info","event":"Listings page loaded","logger":"scraper"}
+{"timestamp":"2025-07-20T00:00:14.692136","level":"info","event":"Applying filters for city: الرياض, district: None","logger":"scraper"}
+{"timestamp":"2025-07-20T00:00:14.705903","level":"info","event":"Checking available filter elements...","logger":"scraper"}
+{"timestamp":"2025-07-20T00:00:14.757589","level":"info","event":"Found 513 total elements on page","logger":"scraper"}
+{"timestamp":"2025-07-20T00:00:14.786434","level":"info","event":"Filters applied successfully","logger":"scraper"}
+{"timestamp":"2025-07-20T00:00:16.800710","level":"info","event":"Starting scroll to load properties (max: ALL)...","logger":"scraper"}
+{"timestamp":"2025-07-20T00:00:21.822494","level":"info","event":"Attempt 1: Found 10 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:00:24.905068","level":"info","event":"Attempt 2: Found 20 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:00:27.970684","level":"info","event":"Attempt 3: Found 30 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:00:31.033280","level":"info","event":"Attempt 4: Found 40 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:00:34.127477","level":"info","event":"Attempt 5: Found 50 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:00:39.215713","level":"info","event":"Attempt 6: Found 60 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:00:42.279367","level":"info","event":"Attempt 7: Found 70 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:00:45.342526","level":"info","event":"Attempt 8: Found 80 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:00:48.405465","level":"info","event":"Attempt 9: Found 90 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:00:51.478588","level":"info","event":"Attempt 10: Found 100 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:00:56.578155","level":"info","event":"Attempt 11: Found 110 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:00:59.658597","level":"info","event":"Attempt 12: Found 120 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:01:02.720216","level":"info","event":"Attempt 13: Found 130 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:01:05.797129","level":"info","event":"Attempt 14: Found 140 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:01:08.877946","level":"info","event":"Attempt 15: Found 150 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:01:13.971625","level":"info","event":"Attempt 16: Found 160 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:01:17.058659","level":"info","event":"Attempt 17: Found 170 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:01:20.150275","level":"info","event":"Attempt 18: Found 180 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:01:23.266387","level":"info","event":"Attempt 19: Found 190 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:01:26.364754","level":"info","event":"Attempt 20: Found 200 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:01:31.460494","level":"info","event":"Attempt 21: Found 210 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:01:34.556801","level":"info","event":"Attempt 22: Found 220 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:01:37.641742","level":"info","event":"Attempt 23: Found 230 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:01:40.752509","level":"info","event":"Attempt 24: Found 240 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:01:43.869096","level":"info","event":"Attempt 25: Found 250 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:01:48.966349","level":"info","event":"Attempt 26: Found 260 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:01:52.051042","level":"info","event":"Attempt 27: Found 270 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:01:55.139302","level":"info","event":"Attempt 28: Found 280 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:01:58.227913","level":"info","event":"Attempt 29: Found 290 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:02:01.348910","level":"info","event":"Attempt 30: Found 300 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:02:06.461105","level":"info","event":"Attempt 31: Found 310 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:02:09.566991","level":"info","event":"Attempt 32: Found 320 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:02:12.640854","level":"info","event":"Attempt 33: Found 330 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:02:15.739114","level":"info","event":"Attempt 34: Found 340 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:02:18.844098","level":"info","event":"Attempt 35: Found 350 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:02:23.944866","level":"info","event":"Attempt 36: Found 360 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:02:27.032063","level":"info","event":"Attempt 37: Found 370 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:02:30.128236","level":"info","event":"Attempt 38: Found 380 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:02:33.214510","level":"info","event":"Attempt 39: Found 390 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:02:36.302828","level":"info","event":"Attempt 40: Found 400 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:02:41.412101","level":"info","event":"Attempt 41: Found 410 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:02:44.527032","level":"info","event":"Attempt 42: Found 420 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:02:47.645124","level":"info","event":"Attempt 43: Found 430 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:02:50.798817","level":"info","event":"Attempt 44: Found 440 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:02:53.952793","level":"info","event":"Attempt 45: Found 450 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:02:59.074952","level":"info","event":"Attempt 46: Found 460 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:03:02.175137","level":"info","event":"Attempt 47: Found 470 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:03:05.271909","level":"info","event":"Attempt 48: Found 480 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:03:08.375039","level":"info","event":"Attempt 49: Found 490 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:03:11.498797","level":"info","event":"Attempt 50: Found 500 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:03:16.665525","level":"info","event":"Attempt 51: Found 510 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:03:19.859076","level":"info","event":"Attempt 52: Found 520 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:03:22.950383","level":"info","event":"Attempt 53: Found 530 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:03:26.069865","level":"info","event":"Attempt 54: Found 540 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:03:29.199542","level":"info","event":"Attempt 55: Found 550 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:03:34.308582","level":"info","event":"Attempt 56: Found 560 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:03:37.403636","level":"info","event":"Attempt 57: Found 570 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:03:40.523082","level":"info","event":"Attempt 58: Found 580 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:03:43.644889","level":"info","event":"Attempt 59: Found 590 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:03:46.770927","level":"info","event":"Attempt 60: Found 600 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:03:51.897423","level":"info","event":"Attempt 61: Found 610 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:03:55.064525","level":"info","event":"Attempt 62: Found 620 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:03:58.182964","level":"info","event":"Attempt 63: Found 630 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:04:01.297124","level":"info","event":"Attempt 64: Found 640 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:04:04.450193","level":"info","event":"Attempt 65: Found 650 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:04:09.633305","level":"info","event":"Attempt 66: Found 660 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:04:12.778324","level":"info","event":"Attempt 67: Found 670 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:04:15.884529","level":"info","event":"Attempt 68: Found 680 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:04:19.013423","level":"info","event":"Attempt 69: Found 690 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:04:22.180119","level":"info","event":"Attempt 70: Found 700 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T00:04:27.221110Z","level":"error","event":"Server indicated the task shouldn't be running anymore. Terminating process","detail":{"detail":{"reason":"not_running","message":"TI is no longer in the running state and task should terminate","current_state":"failed"}},"logger":"task"}
+{"timestamp":"2025-07-20T00:04:27.236639Z","level":"error","event":"Task killed!","logger":"task"}

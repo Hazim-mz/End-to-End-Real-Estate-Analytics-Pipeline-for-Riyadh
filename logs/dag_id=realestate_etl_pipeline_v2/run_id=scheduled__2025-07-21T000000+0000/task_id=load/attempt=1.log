@@ -1,0 +1,10 @@
+{"timestamp":"2025-07-21T00:05:23.699543","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-21T00:05:23.700154","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/etl_pipeline_v2.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-21T00:05:24.534708","level":"warning","event":"Passing literal json to 'read_json' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.","category":"FutureWarning","filename":"/opt/airflow/dags/etl_pipeline_v2.py","lineno":57,"logger":"py.warnings"}
+{"timestamp":"2025-07-21T00:05:24.554210","level":"info","event":"Successfully connected to PostgreSQL database","logger":"loader"}
+{"timestamp":"2025-07-21T00:05:24.558083","level":"info","event":"Tables already exist, skipping creation","logger":"loader"}
+{"timestamp":"2025-07-21T00:05:24.567864","level":"info","event":"Successfully batch upserted 9 properties to database from DataFrame","logger":"loader"}
+{"timestamp":"2025-07-21T00:05:24.568457","level":"info","event":"Database connection closed","logger":"loader"}
+{"timestamp":"2025-07-21T00:05:24.569393Z","level":"info","event":"Loaded 9 properties into database","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-21T00:05:24.569120","level":"info","event":"Done. Returned value was: 9","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-07-21T00:05:24.569295","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('01982a47-ba50-7c57-985f-5aaf8ece8ee7'), task_id='load', dag_id='realestate_etl_pipeline_v2', run_id='scheduled__2025-07-21T00:00:00+00:00', try_number=1, map_index=-1, hostname='d9baf7fb2a61', context_carrier=None, task=<Task(PythonOperator): load>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=1, start_date=datetime.datetime(2025, 7, 21, 0, 5, 23, 616225, tzinfo=TzInfo(UTC)), end_date=None, is_mapped=False)","logger":"task"}

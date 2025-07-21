@@ -1,0 +1,77 @@
+{"timestamp":"2025-07-20T22:00:53.430861","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-20T22:00:53.432041","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/etl_pipeline_v2.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-20T22:00:56.690632","level":"info","event":"====== WebDriver manager ======","logger":"WDM"}
+{"timestamp":"2025-07-20T22:00:57.005739","level":"info","event":"Get LATEST chromedriver version for google-chrome","logger":"WDM"}
+{"timestamp":"2025-07-20T22:00:57.911532","level":"info","event":"Get LATEST chromedriver version for google-chrome","logger":"WDM"}
+{"timestamp":"2025-07-20T22:00:58.454899","level":"info","event":"Driver [/opt/airflow/scripts/.wdm/drivers/chromedriver/linux64/138.0.7204.157/chromedriver-linux64/THIRD_PARTY_NOTICES.chromedriver] found in cache","logger":"WDM"}
+{"timestamp":"2025-07-20T22:00:58.583223","level":"warning","event":"ChromeDriver setup failed: [Errno 8] Exec format error: '/opt/airflow/scripts/.wdm/drivers/chromedriver/linux64/138.0.7204.157/chromedriver-linux64/THIRD_PARTY_NOTICES.chromedriver'","logger":"scraper"}
+{"timestamp":"2025-07-20T22:01:00.477719","level":"info","event":"Chrome driver initialized with system Chrome","logger":"scraper"}
+{"timestamp":"2025-07-20T22:01:00.478231","level":"info","event":"Starting DealApp scraping with max_properties=100...","logger":"scraper"}
+{"timestamp":"2025-07-20T22:01:00.478412","level":"info","event":"Trying URL 1/4: https://dealapp.sa/ar/عقارات/الرياض/جميع_العقارات/بيع_و_إيجار","logger":"scraper"}
+{"timestamp":"2025-07-20T22:01:10.717026","level":"info","event":"Listings page loaded","logger":"scraper"}
+{"timestamp":"2025-07-20T22:01:13.717704","level":"info","event":"Applying filters for city: الرياض, district: None","logger":"scraper"}
+{"timestamp":"2025-07-20T22:01:13.753651","level":"info","event":"Checking available filter elements...","logger":"scraper"}
+{"timestamp":"2025-07-20T22:01:13.913693","level":"info","event":"Found 522 total elements on page","logger":"scraper"}
+{"timestamp":"2025-07-20T22:01:14.051410","level":"info","event":"Filters applied successfully","logger":"scraper"}
+{"timestamp":"2025-07-20T22:01:14.051798","level":"info","event":"Starting scroll to load properties (max: 100)...","logger":"scraper"}
+{"timestamp":"2025-07-20T22:01:19.095640","level":"info","event":"Attempt 1: Found 10 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T22:01:22.246030","level":"info","event":"Attempt 2: Found 20 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T22:01:25.366849","level":"info","event":"Attempt 3: Found 30 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T22:01:28.480555","level":"info","event":"Attempt 4: Found 40 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T22:01:31.611633","level":"info","event":"Attempt 5: Found 50 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T22:01:36.731275","level":"info","event":"Attempt 6: Found 60 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T22:01:39.859880","level":"info","event":"Attempt 7: Found 70 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T22:01:43.007571","level":"info","event":"Attempt 8: Found 80 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T22:01:46.177691","level":"info","event":"Attempt 9: Found 90 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T22:01:49.429579","level":"info","event":"Attempt 10: Found 100 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T22:01:49.429872","level":"info","event":"Reached target of 100 properties, stopping scroll","logger":"scraper"}
+{"timestamp":"2025-07-20T22:01:49.429995","level":"info","event":"Scrolling completed after 10 attempts","logger":"scraper"}
+{"timestamp":"2025-07-20T22:01:49.509148","level":"info","event":"Found 0 property cards","logger":"scraper"}
+{"timestamp":"2025-07-20T22:01:49.509420","level":"info","event":"Trying URL 2/4: https://dealapp.sa/ar/عقارات/الرياض","logger":"scraper"}
+{"timestamp":"2025-07-20T22:02:22.181403","level":"warning","event":"Could not find app-ads-list, trying alternative selectors","logger":"scraper"}
+{"timestamp":"2025-07-20T22:02:22.208374","level":"info","event":"Page loaded with selector: ion-content","logger":"scraper"}
+{"timestamp":"2025-07-20T22:02:25.207663","level":"info","event":"Applying filters for city: الرياض, district: None","logger":"scraper"}
+{"timestamp":"2025-07-20T22:02:35.649735","level":"error","event":"Error applying filters: Message: \nStacktrace:\n#0 0x558216adc7da <unknown>\n#1 0x5582165812e0 <unknown>\n#2 0x5582165d2e00 <unknown>\n#3 0x5582165d2ff1 <unknown>\n#4 0x558216621324 <unknown>\n#5 0x5582165f88dd <unknown>\n#6 0x55821661e71c <unknown>\n#7 0x5582165f8683 <unknown>\n#8 0x5582165c4b5b <unknown>\n#9 0x5582165c5f31 <unknown>\n#10 0x558216aa172b <unknown>\n#11 0x558216aa5534 <unknown>\n#12 0x558216a88229 <unknown>\n#13 0x558216aa60d8 <unknown>\n#14 0x558216a6c61f <unknown>\n#15 0x558216ac9dd8 <unknown>\n#16 0x558216ac9fb6 <unknown>\n#17 0x558216adbaf6 <unknown>\n#18 0x778dc53681f5 <unknown>\n","logger":"scraper"}
+{"timestamp":"2025-07-20T22:02:35.650017","level":"info","event":"Starting scroll to load properties (max: 100)...","logger":"scraper"}
+{"timestamp":"2025-07-20T22:02:40.677047","level":"info","event":"Attempt 1: Found 0 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T22:02:43.791155","level":"info","event":"Attempt 2: Found 0 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T22:02:46.875704","level":"info","event":"Attempt 3: Found 0 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T22:02:46.875968","level":"info","event":"No new properties found for 3 attempts, trying enhanced loading","logger":"scraper"}
+{"timestamp":"2025-07-20T22:02:51.022727","level":"info","event":"No new content after enhanced loading, stopping","logger":"scraper"}
+{"timestamp":"2025-07-20T22:02:51.022992","level":"info","event":"Scrolling completed after 3 attempts","logger":"scraper"}
+{"timestamp":"2025-07-20T22:02:51.051762","level":"info","event":"Found 0 property cards","logger":"scraper"}
+{"timestamp":"2025-07-20T22:02:51.052006","level":"info","event":"Trying URL 3/4: https://dealapp.sa/ar/عقارات","logger":"scraper"}
+{"timestamp":"2025-07-20T22:02:52.900811","level":"info","event":"Listings page loaded","logger":"scraper"}
+{"timestamp":"2025-07-20T22:02:55.900576","level":"info","event":"Applying filters for city: الرياض, district: None","logger":"scraper"}
+{"timestamp":"2025-07-20T22:02:55.916475","level":"info","event":"Checking available filter elements...","logger":"scraper"}
+{"timestamp":"2025-07-20T22:02:55.999317","level":"info","event":"Found 492 total elements on page","logger":"scraper"}
+{"timestamp":"2025-07-20T22:02:56.028512","level":"error","event":"Error applying filters: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#requests-filter-city\"}\n  (Session info: chrome=138.0.7204.157); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x558216adc7da <unknown>\n#1 0x5582165812e0 <unknown>\n#2 0x5582165d2e00 <unknown>\n#3 0x5582165d2ff1 <unknown>\n#4 0x558216621324 <unknown>\n#5 0x5582165f88dd <unknown>\n#6 0x55821661e71c <unknown>\n#7 0x5582165f8683 <unknown>\n#8 0x5582165c4b5b <unknown>\n#9 0x5582165c5f31 <unknown>\n#10 0x558216aa172b <unknown>\n#11 0x558216aa5534 <unknown>\n#12 0x558216a88229 <unknown>\n#13 0x558216aa60d8 <unknown>\n#14 0x558216a6c61f <unknown>\n#15 0x558216ac9dd8 <unknown>\n#16 0x558216ac9fb6 <unknown>\n#17 0x558216adbaf6 <unknown>\n#18 0x778dc53681f5 <unknown>\n","logger":"scraper"}
+{"timestamp":"2025-07-20T22:02:56.028893","level":"info","event":"Starting scroll to load properties (max: 100)...","logger":"scraper"}
+{"timestamp":"2025-07-20T22:03:01.069252","level":"info","event":"Attempt 1: Found 10 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T22:03:04.207674","level":"info","event":"Attempt 2: Found 20 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T22:03:07.311433","level":"info","event":"Attempt 3: Found 30 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T22:03:10.427489","level":"info","event":"Attempt 4: Found 40 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T22:03:13.551766","level":"info","event":"Attempt 5: Found 50 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T22:03:18.682599","level":"info","event":"Attempt 6: Found 60 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T22:03:21.842856","level":"info","event":"Attempt 7: Found 70 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T22:03:25.023695","level":"info","event":"Attempt 8: Found 80 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T22:03:28.204694","level":"info","event":"Attempt 9: Found 90 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T22:03:31.351994","level":"info","event":"Attempt 10: Found 100 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T22:03:31.352230","level":"info","event":"Reached target of 100 properties, stopping scroll","logger":"scraper"}
+{"timestamp":"2025-07-20T22:03:31.352367","level":"info","event":"Scrolling completed after 10 attempts","logger":"scraper"}
+{"timestamp":"2025-07-20T22:03:31.382741","level":"info","event":"Found 0 property cards","logger":"scraper"}
+{"timestamp":"2025-07-20T22:03:31.383020","level":"info","event":"Trying URL 4/4: https://dealapp.sa/ar/عقارات/الرياض/جميع_العقارات","logger":"scraper"}
+{"timestamp":"2025-07-20T22:04:03.160669","level":"warning","event":"Could not find app-ads-list, trying alternative selectors","logger":"scraper"}
+{"timestamp":"2025-07-20T22:04:03.186369","level":"info","event":"Page loaded with selector: ion-content","logger":"scraper"}
+{"timestamp":"2025-07-20T22:04:06.187048","level":"info","event":"Applying filters for city: الرياض, district: None","logger":"scraper"}
+{"timestamp":"2025-07-20T22:04:16.669532","level":"error","event":"Error applying filters: Message: \nStacktrace:\n#0 0x558216adc7da <unknown>\n#1 0x5582165812e0 <unknown>\n#2 0x5582165d2e00 <unknown>\n#3 0x5582165d2ff1 <unknown>\n#4 0x558216621324 <unknown>\n#5 0x5582165f88dd <unknown>\n#6 0x55821661e71c <unknown>\n#7 0x5582165f8683 <unknown>\n#8 0x5582165c4b5b <unknown>\n#9 0x5582165c5f31 <unknown>\n#10 0x558216aa172b <unknown>\n#11 0x558216aa5534 <unknown>\n#12 0x558216a88229 <unknown>\n#13 0x558216aa60d8 <unknown>\n#14 0x558216a6c61f <unknown>\n#15 0x558216ac9dd8 <unknown>\n#16 0x558216ac9fb6 <unknown>\n#17 0x558216adbaf6 <unknown>\n#18 0x778dc53681f5 <unknown>\n","logger":"scraper"}
+{"timestamp":"2025-07-20T22:04:16.669936","level":"info","event":"Starting scroll to load properties (max: 100)...","logger":"scraper"}
+{"timestamp":"2025-07-20T22:04:21.692127","level":"info","event":"Attempt 1: Found 0 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T22:04:24.784874","level":"info","event":"Attempt 2: Found 0 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T22:04:27.869615","level":"info","event":"Attempt 3: Found 0 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T22:04:27.869839","level":"info","event":"No new properties found for 3 attempts, trying enhanced loading","logger":"scraper"}
+{"timestamp":"2025-07-20T22:04:32.027567","level":"info","event":"No new content after enhanced loading, stopping","logger":"scraper"}
+{"timestamp":"2025-07-20T22:04:32.027784","level":"info","event":"Scrolling completed after 3 attempts","logger":"scraper"}
+{"timestamp":"2025-07-20T22:04:32.042730","level":"info","event":"Found 0 property cards","logger":"scraper"}
+{"timestamp":"2025-07-20T22:04:32.042884","level":"info","event":"Successfully scraped 0 unique properties from DealApp","logger":"scraper"}
+{"timestamp":"2025-07-20T22:04:32.162165","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

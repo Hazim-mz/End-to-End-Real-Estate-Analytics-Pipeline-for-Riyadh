@@ -1,0 +1,16 @@
+{"timestamp":"2025-07-20T23:33:52.590615","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-20T23:33:52.591756","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/load_historical_data.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-20T23:33:53.334031","level":"info","event":"Loading only the historical data file...","logger":"transformer"}
+{"timestamp":"2025-07-20T23:33:54.433876","level":"info","event":"Loaded 99969 records from data/raw/realstate_data_2014_2016.csv (utf-8)","logger":"transformer"}
+{"timestamp":"2025-07-20T23:33:54.435514","level":"info","event":"Total raw records loaded: 99969","logger":"transformer"}
+{"timestamp":"2025-07-20T23:33:55.034160","level":"info","event":"Price per sqm - Min: 0.05272727272727273, Max: 100000.0, Mean: 4581.303909547972","logger":"transformer"}
+{"timestamp":"2025-07-20T23:33:55.034771","level":"info","event":"Price per bedroom - Min: 11.0, Max: 1000000.0, Mean: 336141.05722317763","logger":"transformer"}
+{"timestamp":"2025-07-20T23:33:55.197970","level":"info","event":"Warehouse data saved to data/warehouse/riyadh_yasmeen_malga.csv","logger":"transformer"}
+{"timestamp":"2025-07-20T23:33:55.198376","level":"info","event":"Data quality report saved to data/warehouse/quality_report.json","logger":"transformer"}
+{"timestamp":"2025-07-20T23:33:55.217750","level":"info","event":"Successfully connected to PostgreSQL database","logger":"loader"}
+{"timestamp":"2025-07-20T23:33:55.249084","level":"info","event":"Database tables created successfully","logger":"loader"}
+{"timestamp":"2025-07-20T23:33:56.095899","level":"info","event":"Successfully loaded 10021 properties to database from DataFrame","logger":"loader"}
+{"timestamp":"2025-07-20T23:33:56.097063","level":"info","event":"Database connection closed","logger":"loader"}
+{"timestamp":"2025-07-20T23:33:56.097706Z","level":"info","event":"Loaded 10021 historical records","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T23:33:56.106730","level":"info","event":"Done. Returned value was: 10021","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-07-20T23:33:56.107075","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('01982a2f-cb12-744c-b757-4f92b6261199'), task_id='load_historical', dag_id='load_historical_data', run_id='manual__2025-07-20T23:33:51.990676+00:00', try_number=1, map_index=-1, hostname='d9baf7fb2a61', context_carrier=None, task=<Task(PythonOperator): load_historical>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=1, start_date=datetime.datetime(2025, 7, 20, 23, 33, 52, 488247, tzinfo=TzInfo(UTC)), end_date=None, is_mapped=False)","logger":"task"}

@@ -1,0 +1,59 @@
+{"timestamp":"2025-07-19T23:10:49.439312","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-19T23:10:49.440129","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/etl_pipeline.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-19T23:10:51.652552","level":"info","event":"====== WebDriver manager ======","logger":"WDM"}
+{"timestamp":"2025-07-19T23:10:52.104937","level":"info","event":"Get LATEST chromedriver version for google-chrome","logger":"WDM"}
+{"timestamp":"2025-07-19T23:10:52.553117","level":"info","event":"Get LATEST chromedriver version for google-chrome","logger":"WDM"}
+{"timestamp":"2025-07-19T23:10:52.905520","level":"info","event":"Driver [/opt/airflow/scripts/.wdm/drivers/chromedriver/linux64/138.0.7204.157/chromedriver-linux64/THIRD_PARTY_NOTICES.chromedriver] found in cache","logger":"WDM"}
+{"timestamp":"2025-07-19T23:10:53.053642","level":"warning","event":"ChromeDriver setup failed: [Errno 8] Exec format error: '/opt/airflow/scripts/.wdm/drivers/chromedriver/linux64/138.0.7204.157/chromedriver-linux64/THIRD_PARTY_NOTICES.chromedriver'","logger":"scraper"}
+{"timestamp":"2025-07-19T23:10:54.935628","level":"info","event":"Chrome driver initialized with system Chrome","logger":"scraper"}
+{"timestamp":"2025-07-19T23:10:54.936942","level":"info","event":"Starting DealApp scraping with max_properties=5000...","logger":"scraper"}
+{"timestamp":"2025-07-19T23:10:54.937184","level":"info","event":"Trying URL 1/4: https://dealapp.sa/ar/عقارات/الرياض/جميع_العقارات/بيع_و_إيجار","logger":"scraper"}
+{"timestamp":"2025-07-19T23:10:59.364737","level":"info","event":"Listings page loaded","logger":"scraper"}
+{"timestamp":"2025-07-19T23:11:02.365434","level":"info","event":"Applying filters for city: الرياض, district: None","logger":"scraper"}
+{"timestamp":"2025-07-19T23:11:02.418622","level":"info","event":"Checking available filter elements...","logger":"scraper"}
+{"timestamp":"2025-07-19T23:11:02.632554","level":"info","event":"Found 507 total elements on page","logger":"scraper"}
+{"timestamp":"2025-07-19T23:11:02.702662","level":"info","event":"Filters applied successfully","logger":"scraper"}
+{"timestamp":"2025-07-19T23:11:04.703330","level":"info","event":"Starting scroll to load properties (max: 5000)...","logger":"scraper"}
+{"timestamp":"2025-07-19T23:11:09.703933","level":"info","event":"=== DEBUG: Analyzing page structure ===","logger":"scraper"}
+{"timestamp":"2025-07-19T23:11:09.771460","level":"info","event":"Total elements on page: 507","logger":"scraper"}
+{"timestamp":"2025-07-19T23:11:09.793487","level":"info","event":"Found 10 elements with selector: app-main-ad-card","logger":"scraper"}
+{"timestamp":"2025-07-19T23:11:09.834667","level":"info","event":"Found 18 elements with selector: [class*='property']","logger":"scraper"}
+{"timestamp":"2025-07-19T23:11:09.873098","level":"info","event":"Found 214 elements with selector: [class*='card']","logger":"scraper"}
+{"timestamp":"2025-07-19T23:11:09.973810","level":"info","event":"Found pagination element: ion-infinite-scroll - 1 elements","logger":"scraper"}
+{"timestamp":"2025-07-19T23:11:10.059589","level":"info","event":"Found 0 buttons on page","logger":"scraper"}
+{"timestamp":"2025-07-19T23:11:10.075840","level":"info","event":"Found 0 links on page","logger":"scraper"}
+{"timestamp":"2025-07-19T23:11:10.076070","level":"info","event":"=== END DEBUG ===","logger":"scraper"}
+{"timestamp":"2025-07-19T23:11:10.076172","level":"info","event":"Trying scroll strategy 1/4","logger":"scraper"}
+{"timestamp":"2025-07-19T23:11:10.076261","level":"info","event":"Using standard scroll strategy","logger":"scraper"}
+{"timestamp":"2025-07-19T23:11:10.098879","level":"info","event":"Strategy 1 - Attempt 1: Found 10 properties","logger":"scraper"}
+{"timestamp":"2025-07-19T23:11:12.125370","level":"info","event":"Strategy 1 - Attempt 2: Found 10 properties","logger":"scraper"}
+{"timestamp":"2025-07-19T23:11:14.155683","level":"info","event":"Strategy 1 - Attempt 3: Found 10 properties","logger":"scraper"}
+{"timestamp":"2025-07-19T23:11:16.181266","level":"info","event":"Strategy 1 - Attempt 4: Found 10 properties","logger":"scraper"}
+{"timestamp":"2025-07-19T23:11:16.192584","level":"info","event":"Strategy 1 found 10 properties, trying next strategy","logger":"scraper"}
+{"timestamp":"2025-07-19T23:11:16.192699","level":"info","event":"Trying scroll strategy 2/4","logger":"scraper"}
+{"timestamp":"2025-07-19T23:11:16.192808","level":"info","event":"Using incremental scroll strategy","logger":"scraper"}
+{"timestamp":"2025-07-19T23:11:17.212074","level":"info","event":"Strategy 2 - Found 10 properties after scroll 1","logger":"scraper"}
+{"timestamp":"2025-07-19T23:11:36.582334","level":"info","event":"Strategy 2 found 10 properties, trying next strategy","logger":"scraper"}
+{"timestamp":"2025-07-19T23:11:36.582532","level":"info","event":"Trying scroll strategy 3/4","logger":"scraper"}
+{"timestamp":"2025-07-19T23:11:36.582752","level":"info","event":"Using button-based loading strategy","logger":"scraper"}
+{"timestamp":"2025-07-19T23:11:36.634905","level":"info","event":"Found button with keyword 'تحميل': ''","logger":"scraper"}
+{"timestamp":"2025-07-19T23:11:36.670133","level":"info","event":"Found button with keyword 'تحميل': ''","logger":"scraper"}
+{"timestamp":"2025-07-19T23:11:36.715046","level":"info","event":"Found button with keyword 'load': ''","logger":"scraper"}
+{"timestamp":"2025-07-19T23:11:36.748828","level":"info","event":"Found button with keyword 'load': ''","logger":"scraper"}
+{"timestamp":"2025-07-19T23:11:36.780452","level":"info","event":"Found button with keyword 'load': ''","logger":"scraper"}
+{"timestamp":"2025-07-19T23:11:36.815413","level":"info","event":"Found button with keyword 'load': ''","logger":"scraper"}
+{"timestamp":"2025-07-19T23:11:36.850030","level":"info","event":"Found button with keyword 'load': ''","logger":"scraper"}
+{"timestamp":"2025-07-19T23:11:36.890102","level":"info","event":"Found button with keyword 'load': ''","logger":"scraper"}
+{"timestamp":"2025-07-19T23:11:36.970370","level":"info","event":"Strategy 3 found 10 properties, trying next strategy","logger":"scraper"}
+{"timestamp":"2025-07-19T23:11:36.970605","level":"info","event":"Trying scroll strategy 4/4","logger":"scraper"}
+{"timestamp":"2025-07-19T23:11:36.970704","level":"info","event":"Using JavaScript-based loading strategy","logger":"scraper"}
+{"timestamp":"2025-07-19T23:11:41.013166","level":"info","event":"Strategy 4 - Script 1: Found 20 properties","logger":"scraper"}
+{"timestamp":"2025-07-19T23:11:45.087457","level":"info","event":"Strategy 4 - Script 2: Found 30 properties","logger":"scraper"}
+{"timestamp":"2025-07-19T23:11:49.130852","level":"info","event":"Strategy 4 - Script 3: Found 40 properties","logger":"scraper"}
+{"timestamp":"2025-07-19T23:11:53.178708","level":"info","event":"Strategy 4 - Script 4: Found 50 properties","logger":"scraper"}
+{"timestamp":"2025-07-19T23:11:53.190816","level":"info","event":"Strategy 4 successful, found 50 properties","logger":"scraper"}
+{"timestamp":"2025-07-19T23:11:53.191239","level":"info","event":"Found 50 property cards after scrolling","logger":"scraper"}
+{"timestamp":"2025-07-19T23:11:53.191306","level":"info","event":"Processing card 1/50","logger":"scraper"}
+{"timestamp":"2025-07-19T23:11:58.755907","level":"info","event":"Successfully found properties with URL 1","logger":"scraper"}
+{"timestamp":"2025-07-19T23:11:58.756114","level":"info","event":"Successfully scraped 50 unique properties from DealApp","logger":"scraper"}
+{"timestamp":"2025-07-19T23:11:58.916455","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

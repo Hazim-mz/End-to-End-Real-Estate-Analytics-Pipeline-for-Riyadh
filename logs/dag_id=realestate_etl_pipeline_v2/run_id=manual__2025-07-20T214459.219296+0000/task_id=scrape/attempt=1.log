@@ -1,0 +1,397 @@
+{"timestamp":"2025-07-20T21:44:59.638561","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-20T21:44:59.639695","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/etl_pipeline_v2.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-20T21:45:00.698847","level":"info","event":"====== WebDriver manager ======","logger":"WDM"}
+{"timestamp":"2025-07-20T21:45:00.921004","level":"info","event":"Get LATEST chromedriver version for google-chrome","logger":"WDM"}
+{"timestamp":"2025-07-20T21:45:01.274501","level":"info","event":"Get LATEST chromedriver version for google-chrome","logger":"WDM"}
+{"timestamp":"2025-07-20T21:45:01.584186","level":"info","event":"Driver [/opt/airflow/scripts/.wdm/drivers/chromedriver/linux64/138.0.7204.157/chromedriver-linux64/THIRD_PARTY_NOTICES.chromedriver] found in cache","logger":"WDM"}
+{"timestamp":"2025-07-20T21:45:01.602557","level":"warning","event":"ChromeDriver setup failed: [Errno 8] Exec format error: '/opt/airflow/scripts/.wdm/drivers/chromedriver/linux64/138.0.7204.157/chromedriver-linux64/THIRD_PARTY_NOTICES.chromedriver'","logger":"scraper"}
+{"timestamp":"2025-07-20T21:45:03.628859","level":"info","event":"Chrome driver initialized with system Chrome","logger":"scraper"}
+{"timestamp":"2025-07-20T21:45:03.629183","level":"info","event":"Starting DealApp scraping with max_properties=100...","logger":"scraper"}
+{"timestamp":"2025-07-20T21:45:03.629275","level":"info","event":"Trying URL 1/4: https://dealapp.sa/ar/عقارات/الرياض/جميع_العقارات/بيع_و_إيجار","logger":"scraper"}
+{"timestamp":"2025-07-20T21:45:06.719587","level":"info","event":"Listings page loaded","logger":"scraper"}
+{"timestamp":"2025-07-20T21:45:09.720028","level":"info","event":"Applying filters for city: الرياض, district: None","logger":"scraper"}
+{"timestamp":"2025-07-20T21:45:09.738520","level":"info","event":"Checking available filter elements...","logger":"scraper"}
+{"timestamp":"2025-07-20T21:45:09.819891","level":"info","event":"Found 516 total elements on page","logger":"scraper"}
+{"timestamp":"2025-07-20T21:45:09.855147","level":"info","event":"Filters applied successfully","logger":"scraper"}
+{"timestamp":"2025-07-20T21:45:11.855658","level":"info","event":"Starting scroll to load properties (max: 100)...","logger":"scraper"}
+{"timestamp":"2025-07-20T21:45:16.887936","level":"info","event":"Attempt 1: Found 10 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T21:45:19.981017","level":"info","event":"Attempt 2: Found 20 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T21:45:23.062528","level":"info","event":"Attempt 3: Found 30 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T21:45:26.134326","level":"info","event":"Attempt 4: Found 40 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T21:45:29.194396","level":"info","event":"Attempt 5: Found 50 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T21:45:34.274398","level":"info","event":"Attempt 6: Found 60 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T21:45:37.361397","level":"info","event":"Attempt 7: Found 70 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T21:45:40.440737","level":"info","event":"Attempt 8: Found 80 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T21:45:43.537973","level":"info","event":"Attempt 9: Found 90 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T21:45:46.626451","level":"info","event":"Attempt 10: Found 100 properties","logger":"scraper"}
+{"timestamp":"2025-07-20T21:45:46.626608","level":"info","event":"Reached target of 100 properties, stopping scroll","logger":"scraper"}
+{"timestamp":"2025-07-20T21:45:46.626656","level":"info","event":"Scrolling completed after 10 attempts","logger":"scraper"}
+{"timestamp":"2025-07-20T21:45:46.639889","level":"info","event":"Found 100 property cards after scrolling","logger":"scraper"}
+{"timestamp":"2025-07-20T21:45:46.640026","level":"info","event":"Processing card 1/100","logger":"scraper"}
+{"timestamp":"2025-07-20T21:45:46.677751Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:46.678179Z","level":"info","event":"--- DEBUG card_html (card 1) ---","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:46.678472Z","level":"info","event":"<div _ngcontent-ng-c649286182=\"\" class=\"ad-card-main-container ad-card-promoted\"><div _ngcontent-ng-c649286182=\"\" class=\"ad-card-content-wrapper\"><div _ngcontent-ng-c649286182=\"\" class=\"ad-card-data-container\"><div _ngcontent-ng-c649286182=\"\" class=\"ad-card-main-data\"><div _ngcontent-ng-c649286182=\"\" class=\"ad-card-title-container\"><h3 _ngcontent-ng-c649286182=\"\" class=\"ad-card-main-title typographyTextSmLd3Normal truncate\"> شقة للإيجار </h3><!----></div><div _ngcontent-ng-c649286182=\"\" class=\"ad-card-main-price-container\"><span _ngcontent-ng-c649286182=\"\" class=\"typographyTextLgLd5Bold ad-card-main-price\"> 75,000 </span><span _ngcontent-ng-c649286182=\"\" class=\"typographyTextXsLd0Normal ad-card-main-price-unit\"> ريال </span></div></div><div _ngcontent-ng-c649286182=\"\" class=\"ad-card-features-container\"><div _ngcontent-ng-c649286182=\"\" class=\"ad-card-features-badges-wrapper\"><div _ngcontent-ng-c649286182=\"\" class=\"ad-card-feature-badge\"><ion-icon _ngcontent-ng-c649286182=\"\" src=\"assets/imgs/ruler&amp;pen.svg\" role=\"img\" class=\"ios hydrated\"></ion-icon><span _ngcontent-ng-c649286182=\"\" class=\"typographyTextXsLd0Normal ad-card-feature-text\"> 125 &nbsp;م² </span></div><!----><div _ngcontent-ng-c649286182=\"\" class=\"ad-card-feature-badge\"><ion-icon _ngcontent-ng-c649286182=\"\" src=\"assets/imgs/bed-ads.svg\" role=\"img\" class=\"ios hydrated\"></ion-icon><span _ngcontent-ng-c649286182=\"\" class=\"typographyTextXsLd0Normal ad-card-feature-text\"> 3  غرف  </span></div><!----><div _ngcontent-ng-c649286182=\"\" class=\"ad-card-feature-badge\"><ion-icon _ngcontent-ng-c649286182=\"\" src=\"assets/imgs/bathroom_ad.svg\" role=\"img\" class=\"ios hydrated\"></ion-icon><span _ngcontent-ng-c649286182=\"\" class=\"typographyTextXsLd0Normal ad-card-feature-text\"> 3 حمام  </span></div><!----></div><div _ngcontent-ng-c649286182=\"\" class=\"ad-card-location-container\"><ion-icon _ngcontent-ng-c649286182=\"\" src=\"assets/imgs/ad-location.svg\" role=\"img\" class=\"ios hydrated\"></ion-icon><span _ngcontent-ng-c649286182=\"\" class=\"typographyTextXsLd2Normal\"> الحمراء, الرياض </span></div></div></div><div _ngcontent-ng-c649286182=\"\" class=\"ad-card-image-container\"><img _ngcontent-ng-c649286182=\"\" class=\"ad-card-main-image\" src=\"https://uploads.deal-app.com/17d7a041-871b-4c68-a7b1-88fcb065dba8.webp\" alt=\"شقة للإيجار\"><!----><!----><div _ngcontent-ng-c649286182=\"\" class=\"ad-card-promoted-chip\"><span _ngcontent-ng-c649286182=\"\" class=\"typographyTextXsLd0Normal\"> مميز </span></div><!----><div _ngcontent-ng-c649286182=\"\" class=\"ad-card-favorite-btn\"><ion-icon _ngcontent-ng-c649286182=\"\" role=\"img\" class=\"ios hydrated\"></ion-icon></div><!----><!----><div _ngcontent-ng-c649286182=\"\" class=\"ad-media-stats\"><div _ngcontent-ng-c649286182=\"\" class=\"ad-media-stats-chip\"><span _ngcontent-ng-c649286182=\"\" class=\"typographyTextXsLd0Normal\"> 1 </span><ion-icon _ngcontent-ng-c649286182=\"\" src=\"assets/imgs/gallery1.svg\" role=\"img\" class=\"ios hydrated\"></ion-icon></div><!----><div _ngcontent-ng-c649286182=\"\" class=\"ad-media-stats-chip\"><span _ngcontent-ng-c649286182=\"\" class=\"typographyTextXsLd0Normal\"> 3 </span><ion-icon _ngcontent-ng-c649286182=\"\" src=\"assets/imgs/video.svg\" role=\"img\" class=\"ios hydrated\"></ion-icon></div><!----></div><!----></div></div><!----></div>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:46.678840Z","level":"info","event":"----------------","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:46.679257Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:46.830106Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:46.830575Z","level":"info","event":"--- DEBUG card_html (card 2) ---","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:46.830969Z","level":"info","event":"<div _ngcontent-ng-c649286182=\"\" class=\"ad-card-main-container ad-card-promoted\"><div _ngcontent-ng-c649286182=\"\" class=\"ad-card-content-wrapper\"><div _ngcontent-ng-c649286182=\"\" class=\"ad-card-data-container\"><div _ngcontent-ng-c649286182=\"\" class=\"ad-card-main-data\"><div _ngcontent-ng-c649286182=\"\" class=\"ad-card-title-container\"><h3 _ngcontent-ng-c649286182=\"\" class=\"ad-card-main-title typographyTextSmLd3Normal truncate\"> شقة للبيع </h3><!----></div><div _ngcontent-ng-c649286182=\"\" class=\"ad-card-main-price-container\"><span _ngcontent-ng-c649286182=\"\" class=\"typographyTextLgLd5Bold ad-card-main-price\"> 1,400,000 </span><span _ngcontent-ng-c649286182=\"\" class=\"typographyTextXsLd0Normal ad-card-main-price-unit\"> ريال </span></div></div><div _ngcontent-ng-c649286182=\"\" class=\"ad-card-features-container\"><div _ngcontent-ng-c649286182=\"\" class=\"ad-card-features-badges-wrapper\"><div _ngcontent-ng-c649286182=\"\" class=\"ad-card-feature-badge\"><ion-icon _ngcontent-ng-c649286182=\"\" src=\"assets/imgs/ruler&amp;pen.svg\" role=\"img\" class=\"ios hydrated\"></ion-icon><span _ngcontent-ng-c649286182=\"\" class=\"typographyTextXsLd0Normal ad-card-feature-text\"> 94 &nbsp;م² </span></div><!----><div _ngcontent-ng-c649286182=\"\" class=\"ad-card-feature-badge\"><ion-icon _ngcontent-ng-c649286182=\"\" src=\"assets/imgs/bed-ads.svg\" role=\"img\" class=\"ios hydrated\"></ion-icon><span _ngcontent-ng-c649286182=\"\" class=\"typographyTextXsLd0Normal ad-card-feature-text\"> 4  غرف  </span></div><!----><div _ngcontent-ng-c649286182=\"\" class=\"ad-card-feature-badge\"><ion-icon _ngcontent-ng-c649286182=\"\" src=\"assets/imgs/bathroom_ad.svg\" role=\"img\" class=\"ios hydrated\"></ion-icon><span _ngcontent-ng-c649286182=\"\" class=\"typographyTextXsLd0Normal ad-card-feature-text\"> 3 حمام  </span></div><!----></div><div _ngcontent-ng-c649286182=\"\" class=\"ad-card-location-container\"><ion-icon _ngcontent-ng-c649286182=\"\" src=\"assets/imgs/ad-location.svg\" role=\"img\" class=\"ios hydrated\"></ion-icon><span _ngcontent-ng-c649286182=\"\" class=\"typographyTextXsLd2Normal\"> قرطبة, الرياض </span></div></div></div><div _ngcontent-ng-c649286182=\"\" class=\"ad-card-image-container\"><img _ngcontent-ng-c649286182=\"\" class=\"ad-card-main-image\" src=\"https://uploads.deal-app.com/5fc74ef4-c472-4e8d-9bc0-8aa59b8fe864.webp\" alt=\"شقة للبيع\"><!----><!----><div _ngcontent-ng-c649286182=\"\" class=\"ad-card-promoted-chip\"><span _ngcontent-ng-c649286182=\"\" class=\"typographyTextXsLd0Normal\"> مميز </span></div><!----><div _ngcontent-ng-c649286182=\"\" class=\"ad-card-favorite-btn\"><ion-icon _ngcontent-ng-c649286182=\"\" role=\"img\" class=\"ios hydrated\"></ion-icon></div><!----><!----><div _ngcontent-ng-c649286182=\"\" class=\"ad-media-stats\"><div _ngcontent-ng-c649286182=\"\" class=\"ad-media-stats-chip\"><span _ngcontent-ng-c649286182=\"\" class=\"typographyTextXsLd0Normal\"> 5 </span><ion-icon _ngcontent-ng-c649286182=\"\" src=\"assets/imgs/gallery1.svg\" role=\"img\" class=\"ios hydrated\"></ion-icon></div><!----><div _ngcontent-ng-c649286182=\"\" class=\"ad-media-stats-chip\"><span _ngcontent-ng-c649286182=\"\" class=\"typographyTextXsLd0Normal\"> 3 </span><ion-icon _ngcontent-ng-c649286182=\"\" src=\"assets/imgs/video.svg\" role=\"img\" class=\"ios hydrated\"></ion-icon></div><!----></div><!----></div></div><!----></div>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:46.831401Z","level":"info","event":"----------------","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:46.831751Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:46.960315Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:46.960757Z","level":"info","event":"--- DEBUG card_html (card 3) ---","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:46.961342Z","level":"info","event":"<div _ngcontent-ng-c649286182=\"\" class=\"ad-card-main-container ad-card-promoted\"><div _ngcontent-ng-c649286182=\"\" class=\"ad-card-content-wrapper\"><div _ngcontent-ng-c649286182=\"\" class=\"ad-card-data-container\"><div _ngcontent-ng-c649286182=\"\" class=\"ad-card-main-data\"><div _ngcontent-ng-c649286182=\"\" class=\"ad-card-title-container\"><h3 _ngcontent-ng-c649286182=\"\" class=\"ad-card-main-title typographyTextSmLd3Normal truncate\"> برج للبيع </h3><!----></div><div _ngcontent-ng-c649286182=\"\" class=\"ad-card-main-price-container\"><span _ngcontent-ng-c649286182=\"\" class=\"typographyTextLgLd5Bold ad-card-main-price\"> 2,190,000 </span><span _ngcontent-ng-c649286182=\"\" class=\"typographyTextXsLd0Normal ad-card-main-price-unit\"> ريال </span></div></div><div _ngcontent-ng-c649286182=\"\" class=\"ad-card-features-container\"><div _ngcontent-ng-c649286182=\"\" class=\"ad-card-features-badges-wrapper\"><div _ngcontent-ng-c649286182=\"\" class=\"ad-card-feature-badge\"><ion-icon _ngcontent-ng-c649286182=\"\" src=\"assets/imgs/ruler&amp;pen.svg\" role=\"img\" class=\"ios hydrated\"></ion-icon><span _ngcontent-ng-c649286182=\"\" class=\"typographyTextXsLd0Normal ad-card-feature-text\"> 207 &nbsp;م² </span></div><!----><div _ngcontent-ng-c649286182=\"\" class=\"ad-card-feature-badge\"><ion-icon _ngcontent-ng-c649286182=\"\" src=\"assets/imgs/bed-ads.svg\" role=\"img\" class=\"ios hydrated\"></ion-icon><span _ngcontent-ng-c649286182=\"\" class=\"typographyTextXsLd0Normal ad-card-feature-text\">  غرفتين  </span></div><!----><div _ngcontent-ng-c649286182=\"\" class=\"ad-card-feature-badge\"><ion-icon _ngcontent-ng-c649286182=\"\" src=\"assets/imgs/bathroom_ad.svg\" role=\"img\" class=\"ios hydrated\"></ion-icon><span _ngcontent-ng-c649286182=\"\" class=\"typographyTextXsLd0Normal ad-card-feature-text\"> 3 حمام  </span></div><!----></div><div _ngcontent-ng-c649286182=\"\" class=\"ad-card-location-container\"><ion-icon _ngcontent-ng-c649286182=\"\" src=\"assets/imgs/ad-location.svg\" role=\"img\" class=\"ios hydrated\"></ion-icon><span _ngcontent-ng-c649286182=\"\" class=\"typographyTextXsLd2Normal\"> الصحافة, الرياض </span></div></div></div><div _ngcontent-ng-c649286182=\"\" class=\"ad-card-image-container\"><img _ngcontent-ng-c649286182=\"\" class=\"ad-card-main-image\" src=\"https://uploads.deal-app.com/489e3302-76a8-40c0-a0a9-b1494a90e7db.webp\" alt=\"برج للبيع\"><!----><!----><div _ngcontent-ng-c649286182=\"\" class=\"ad-card-promoted-chip\"><span _ngcontent-ng-c649286182=\"\" class=\"typographyTextXsLd0Normal\"> مميز </span></div><!----><div _ngcontent-ng-c649286182=\"\" class=\"ad-card-favorite-btn\"><ion-icon _ngcontent-ng-c649286182=\"\" role=\"img\" class=\"ios hydrated\"></ion-icon></div><!----><!----><div _ngcontent-ng-c649286182=\"\" class=\"ad-media-stats\"><div _ngcontent-ng-c649286182=\"\" class=\"ad-media-stats-chip\"><span _ngcontent-ng-c649286182=\"\" class=\"typographyTextXsLd0Normal\"> 17 </span><ion-icon _ngcontent-ng-c649286182=\"\" src=\"assets/imgs/gallery1.svg\" role=\"img\" class=\"ios hydrated\"></ion-icon></div><!----><!----></div><!----></div></div><!----></div>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:46.961734Z","level":"info","event":"----------------","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:46.961999Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.064679Z","level":"info","event":"DEBUG: Feature text: '360  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.065114Z","level":"info","event":"DEBUG: Feature text: '5  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.065477Z","level":"info","event":"DEBUG: Found bedroom text: '5  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.065949Z","level":"info","event":"DEBUG: Extracted bedrooms: 5","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.066363Z","level":"info","event":"DEBUG: Feature text: '5 حمام'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.112089Z","level":"info","event":"DEBUG: Feature text: '250  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.112730Z","level":"info","event":"DEBUG: Feature text: '7  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.113198Z","level":"info","event":"DEBUG: Found bedroom text: '7  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.113620Z","level":"info","event":"DEBUG: Extracted bedrooms: 7","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.114019Z","level":"info","event":"DEBUG: Feature text: '4 حمام'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.168180Z","level":"info","event":"DEBUG: Feature text: '106  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.168633Z","level":"info","event":"DEBUG: Feature text: 'غرفتين'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.169138Z","level":"info","event":"DEBUG: Found bedroom text: 'غرفتين', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.169456Z","level":"info","event":"DEBUG: Extracted bedrooms: 2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.169757Z","level":"info","event":"DEBUG: Feature text: '3 حمام'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.223115Z","level":"info","event":"DEBUG: Feature text: '450  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.223593Z","level":"info","event":"DEBUG: Feature text: '7  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.223926Z","level":"info","event":"DEBUG: Found bedroom text: '7  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.224263Z","level":"info","event":"DEBUG: Extracted bedrooms: 7","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.224590Z","level":"info","event":"DEBUG: Feature text: '4 حمام'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.275662Z","level":"info","event":"DEBUG: Feature text: '225  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.276156Z","level":"info","event":"DEBUG: Feature text: '7  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.276577Z","level":"info","event":"DEBUG: Found bedroom text: '7  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.276994Z","level":"info","event":"DEBUG: Extracted bedrooms: 7","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.277449Z","level":"info","event":"DEBUG: Feature text: '7 حمام'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.328370Z","level":"info","event":"DEBUG: Feature text: '197  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.328954Z","level":"info","event":"DEBUG: Feature text: '3  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.329528Z","level":"info","event":"DEBUG: Found bedroom text: '3  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.330078Z","level":"info","event":"DEBUG: Extracted bedrooms: 3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.330442Z","level":"info","event":"DEBUG: Feature text: '3 حمام'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.383471Z","level":"info","event":"DEBUG: Feature text: '268  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.384037Z","level":"info","event":"DEBUG: Feature text: '4  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.384401Z","level":"info","event":"DEBUG: Found bedroom text: '4  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.384714Z","level":"info","event":"DEBUG: Extracted bedrooms: 4","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.384963Z","level":"info","event":"DEBUG: Feature text: '7 حمام'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.435814Z","level":"info","event":"DEBUG: Feature text: '375  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.507733Z","level":"info","event":"DEBUG: Feature text: '144  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.508237Z","level":"info","event":"DEBUG: Feature text: '4  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.508617Z","level":"info","event":"DEBUG: Found bedroom text: '4  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.508988Z","level":"info","event":"DEBUG: Extracted bedrooms: 4","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.509267Z","level":"info","event":"DEBUG: Feature text: '4 حمام'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.573979Z","level":"info","event":"DEBUG: Feature text: '297  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.574452Z","level":"info","event":"DEBUG: Feature text: '3  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.574776Z","level":"info","event":"DEBUG: Found bedroom text: '3  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.575074Z","level":"info","event":"DEBUG: Extracted bedrooms: 3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.575414Z","level":"info","event":"DEBUG: Feature text: '4 حمام'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.635517Z","level":"info","event":"DEBUG: Feature text: '142  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.636166Z","level":"info","event":"DEBUG: Feature text: '3  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.636635Z","level":"info","event":"DEBUG: Found bedroom text: '3  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.637036Z","level":"info","event":"DEBUG: Extracted bedrooms: 3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.637350Z","level":"info","event":"DEBUG: Feature text: '3 حمام'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.695036Z","level":"info","event":"DEBUG: Feature text: '233  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.695558Z","level":"info","event":"DEBUG: Feature text: '4  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.696023Z","level":"info","event":"DEBUG: Found bedroom text: '4  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.696334Z","level":"info","event":"DEBUG: Extracted bedrooms: 4","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.696641Z","level":"info","event":"DEBUG: Feature text: 'حمامين'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.754880Z","level":"info","event":"DEBUG: Feature text: '855  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.755473Z","level":"info","event":"DEBUG: Feature text: '7  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.755956Z","level":"info","event":"DEBUG: Found bedroom text: '7  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.756277Z","level":"info","event":"DEBUG: Extracted bedrooms: 7","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.756542Z","level":"info","event":"DEBUG: Feature text: '5 حمام'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.809501Z","level":"info","event":"DEBUG: Feature text: '262  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.810211Z","level":"info","event":"DEBUG: Feature text: '3  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.810817Z","level":"info","event":"DEBUG: Found bedroom text: '3  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.811303Z","level":"info","event":"DEBUG: Extracted bedrooms: 3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.811840Z","level":"info","event":"DEBUG: Feature text: 'حمامين'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.868390Z","level":"info","event":"DEBUG: Feature text: '114  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.868879Z","level":"info","event":"DEBUG: Feature text: '3  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.869204Z","level":"info","event":"DEBUG: Found bedroom text: '3  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.869487Z","level":"info","event":"DEBUG: Extracted bedrooms: 3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.869893Z","level":"info","event":"DEBUG: Feature text: '3 حمام'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.929795Z","level":"info","event":"DEBUG: Feature text: '260  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.930318Z","level":"info","event":"DEBUG: Feature text: '3  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.930809Z","level":"info","event":"DEBUG: Found bedroom text: '3  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.931090Z","level":"info","event":"DEBUG: Extracted bedrooms: 3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.931366Z","level":"info","event":"DEBUG: Feature text: '7 حمام'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.989210Z","level":"info","event":"DEBUG: Feature text: '121.15  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.989695Z","level":"info","event":"DEBUG: Feature text: 'غرفتين'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.990144Z","level":"info","event":"DEBUG: Found bedroom text: 'غرفتين', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:48.990532Z","level":"info","event":"DEBUG: Extracted bedrooms: 2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.045222Z","level":"info","event":"DEBUG: Feature text: '450  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.045925Z","level":"info","event":"DEBUG: Feature text: ''","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.107379Z","level":"info","event":"DEBUG: Feature text: '432  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.107859Z","level":"info","event":"DEBUG: Feature text: ''","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.173305Z","level":"info","event":"DEBUG: Feature text: '312  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.173913Z","level":"info","event":"DEBUG: Feature text: '7  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.174448Z","level":"info","event":"DEBUG: Found bedroom text: '7  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.174814Z","level":"info","event":"DEBUG: Extracted bedrooms: 7","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.175307Z","level":"info","event":"DEBUG: Feature text: '6 حمام'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.272454Z","level":"info","event":"DEBUG: Feature text: '297  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.272955Z","level":"info","event":"DEBUG: Feature text: '3  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.273439Z","level":"info","event":"DEBUG: Found bedroom text: '3  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.274201Z","level":"info","event":"DEBUG: Extracted bedrooms: 3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.277012Z","level":"info","event":"DEBUG: Feature text: '4 حمام'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.342291Z","level":"info","event":"DEBUG: Feature text: '142  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.342718Z","level":"info","event":"DEBUG: Feature text: '3  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.343028Z","level":"info","event":"DEBUG: Found bedroom text: '3  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.343582Z","level":"info","event":"DEBUG: Extracted bedrooms: 3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.344218Z","level":"info","event":"DEBUG: Feature text: '3 حمام'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.402705Z","level":"info","event":"DEBUG: Feature text: '233  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.403209Z","level":"info","event":"DEBUG: Feature text: '4  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.403517Z","level":"info","event":"DEBUG: Found bedroom text: '4  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.403763Z","level":"info","event":"DEBUG: Extracted bedrooms: 4","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.404038Z","level":"info","event":"DEBUG: Feature text: 'حمامين'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.477972Z","level":"info","event":"DEBUG: Feature text: '855  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.478421Z","level":"info","event":"DEBUG: Feature text: '7  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.478744Z","level":"info","event":"DEBUG: Found bedroom text: '7  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.479197Z","level":"info","event":"DEBUG: Extracted bedrooms: 7","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.479481Z","level":"info","event":"DEBUG: Feature text: '5 حمام'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.542357Z","level":"info","event":"DEBUG: Feature text: '262  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.542877Z","level":"info","event":"DEBUG: Feature text: '3  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.543287Z","level":"info","event":"DEBUG: Found bedroom text: '3  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.543636Z","level":"info","event":"DEBUG: Extracted bedrooms: 3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.543920Z","level":"info","event":"DEBUG: Feature text: 'حمامين'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.614263Z","level":"info","event":"DEBUG: Feature text: '114  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.614678Z","level":"info","event":"DEBUG: Feature text: '3  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.614993Z","level":"info","event":"DEBUG: Found bedroom text: '3  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.615298Z","level":"info","event":"DEBUG: Extracted bedrooms: 3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.615738Z","level":"info","event":"DEBUG: Feature text: '3 حمام'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.690622Z","level":"info","event":"DEBUG: Feature text: '260  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.691194Z","level":"info","event":"DEBUG: Feature text: '3  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.691649Z","level":"info","event":"DEBUG: Found bedroom text: '3  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.692125Z","level":"info","event":"DEBUG: Extracted bedrooms: 3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.692596Z","level":"info","event":"DEBUG: Feature text: '7 حمام'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.746871Z","level":"info","event":"DEBUG: Feature text: '121.15  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.747324Z","level":"info","event":"DEBUG: Feature text: 'غرفتين'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.747771Z","level":"info","event":"DEBUG: Found bedroom text: 'غرفتين', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.748160Z","level":"info","event":"DEBUG: Extracted bedrooms: 2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.804123Z","level":"info","event":"DEBUG: Feature text: '450  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.804747Z","level":"info","event":"DEBUG: Feature text: ''","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.860644Z","level":"info","event":"DEBUG: Feature text: '432  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.861088Z","level":"info","event":"DEBUG: Feature text: ''","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.914891Z","level":"info","event":"DEBUG: Feature text: '600  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:49.978997Z","level":"info","event":"DEBUG: Feature text: '650  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.045206Z","level":"info","event":"DEBUG: Feature text: '179.94  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.045624Z","level":"info","event":"DEBUG: Feature text: '5  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.045953Z","level":"info","event":"DEBUG: Found bedroom text: '5  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.046210Z","level":"info","event":"DEBUG: Extracted bedrooms: 5","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.124328Z","level":"info","event":"DEBUG: Feature text: '7  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.125017Z","level":"info","event":"DEBUG: Found bedroom text: '7  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.125823Z","level":"info","event":"DEBUG: Extracted bedrooms: 7","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.126167Z","level":"info","event":"DEBUG: Feature text: '7 حمام'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.196202Z","level":"info","event":"DEBUG: Feature text: '109.9  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.196642Z","level":"info","event":"DEBUG: Feature text: 'غرفتين'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.197128Z","level":"info","event":"DEBUG: Found bedroom text: 'غرفتين', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.197637Z","level":"info","event":"DEBUG: Extracted bedrooms: 2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.276637Z","level":"info","event":"DEBUG: Feature text: '250  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.277362Z","level":"info","event":"DEBUG: Feature text: ''","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.358256Z","level":"info","event":"DEBUG: Feature text: '67.7  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.358723Z","level":"info","event":"DEBUG: Feature text: 'غرفتين'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.359081Z","level":"info","event":"DEBUG: Found bedroom text: 'غرفتين', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.359376Z","level":"info","event":"DEBUG: Extracted bedrooms: 2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.422381Z","level":"info","event":"DEBUG: Feature text: '384  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.422944Z","level":"info","event":"DEBUG: Feature text: '1  غرفة'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.423294Z","level":"info","event":"DEBUG: Found bedroom text: '1  غرفة', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.423875Z","level":"info","event":"DEBUG: Extracted bedrooms: 1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.484570Z","level":"info","event":"DEBUG: Feature text: '126.95  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.485514Z","level":"info","event":"DEBUG: Feature text: 'غرفتين'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.486012Z","level":"info","event":"DEBUG: Found bedroom text: 'غرفتين', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.486376Z","level":"info","event":"DEBUG: Extracted bedrooms: 2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.544662Z","level":"info","event":"DEBUG: Feature text: '490  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.545234Z","level":"info","event":"DEBUG: Feature text: '7  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.545656Z","level":"info","event":"DEBUG: Found bedroom text: '7  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.546119Z","level":"info","event":"DEBUG: Extracted bedrooms: 7","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.546523","level":"info","event":"Processing card 51/100","logger":"scraper"}
+{"timestamp":"2025-07-20T21:45:50.609062Z","level":"info","event":"DEBUG: Feature text: '135.02  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.609538Z","level":"info","event":"DEBUG: Feature text: '3  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.610014Z","level":"info","event":"DEBUG: Found bedroom text: '3  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.610386Z","level":"info","event":"DEBUG: Extracted bedrooms: 3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.680368Z","level":"info","event":"DEBUG: Feature text: '900  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.681660Z","level":"info","event":"DEBUG: Feature text: '7  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.683643Z","level":"info","event":"DEBUG: Found bedroom text: '7  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.684335Z","level":"info","event":"DEBUG: Extracted bedrooms: 7","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.742612Z","level":"info","event":"DEBUG: Feature text: '131.59  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.743161Z","level":"info","event":"DEBUG: Feature text: '3  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.743519Z","level":"info","event":"DEBUG: Found bedroom text: '3  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.743874Z","level":"info","event":"DEBUG: Extracted bedrooms: 3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.809671Z","level":"info","event":"DEBUG: Feature text: '177.81  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.810297Z","level":"info","event":"DEBUG: Feature text: '3  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.810891Z","level":"info","event":"DEBUG: Found bedroom text: '3  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.811255Z","level":"info","event":"DEBUG: Extracted bedrooms: 3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.873672Z","level":"info","event":"DEBUG: Feature text: '302.6  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.874347Z","level":"info","event":"DEBUG: Feature text: ''","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.944924Z","level":"info","event":"DEBUG: Feature text: '251  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.945373Z","level":"info","event":"DEBUG: Feature text: '4  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.945819Z","level":"info","event":"DEBUG: Found bedroom text: '4  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.946327Z","level":"info","event":"DEBUG: Extracted bedrooms: 4","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:50.946933Z","level":"info","event":"DEBUG: Feature text: '5 حمام'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.012280Z","level":"info","event":"DEBUG: Feature text: '141  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.012831Z","level":"info","event":"DEBUG: Feature text: 'غرفتين'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.013339Z","level":"info","event":"DEBUG: Found bedroom text: 'غرفتين', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.013885Z","level":"info","event":"DEBUG: Extracted bedrooms: 2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.070873Z","level":"info","event":"DEBUG: Feature text: '400  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.071576Z","level":"info","event":"DEBUG: Feature text: '4  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.072196Z","level":"info","event":"DEBUG: Found bedroom text: '4  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.072589Z","level":"info","event":"DEBUG: Extracted bedrooms: 4","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.133185Z","level":"info","event":"DEBUG: Feature text: '152.15  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.133777Z","level":"info","event":"DEBUG: Feature text: '5  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.134232Z","level":"info","event":"DEBUG: Found bedroom text: '5  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.134641Z","level":"info","event":"DEBUG: Extracted bedrooms: 5","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.202602Z","level":"info","event":"DEBUG: Feature text: '340.98  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.203200Z","level":"info","event":"DEBUG: Feature text: '5  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.203592Z","level":"info","event":"DEBUG: Found bedroom text: '5  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.203948Z","level":"info","event":"DEBUG: Extracted bedrooms: 5","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.265189Z","level":"info","event":"DEBUG: Feature text: '490  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.266145Z","level":"info","event":"DEBUG: Feature text: '7  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.267400Z","level":"info","event":"DEBUG: Found bedroom text: '7  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.267911Z","level":"info","event":"DEBUG: Extracted bedrooms: 7","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.327684Z","level":"info","event":"DEBUG: Feature text: '135.02  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.328274Z","level":"info","event":"DEBUG: Feature text: '3  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.328751Z","level":"info","event":"DEBUG: Found bedroom text: '3  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.329209Z","level":"info","event":"DEBUG: Extracted bedrooms: 3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.395506Z","level":"info","event":"DEBUG: Feature text: '900  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.396214Z","level":"info","event":"DEBUG: Feature text: '7  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.396704Z","level":"info","event":"DEBUG: Found bedroom text: '7  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.397209Z","level":"info","event":"DEBUG: Extracted bedrooms: 7","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.457835Z","level":"info","event":"DEBUG: Feature text: '131.59  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.458383Z","level":"info","event":"DEBUG: Feature text: '3  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.458850Z","level":"info","event":"DEBUG: Found bedroom text: '3  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.459254Z","level":"info","event":"DEBUG: Extracted bedrooms: 3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.533770Z","level":"info","event":"DEBUG: Feature text: '177.81  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.534296Z","level":"info","event":"DEBUG: Feature text: '3  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.534747Z","level":"info","event":"DEBUG: Found bedroom text: '3  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.535167Z","level":"info","event":"DEBUG: Extracted bedrooms: 3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.616481Z","level":"info","event":"DEBUG: Feature text: '302.6  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.617102Z","level":"info","event":"DEBUG: Feature text: ''","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.698298Z","level":"info","event":"DEBUG: Feature text: '251  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.698867Z","level":"info","event":"DEBUG: Feature text: '4  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.699303Z","level":"info","event":"DEBUG: Found bedroom text: '4  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.699793Z","level":"info","event":"DEBUG: Extracted bedrooms: 4","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.700242Z","level":"info","event":"DEBUG: Feature text: '5 حمام'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.788232Z","level":"info","event":"DEBUG: Feature text: '141  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.788834Z","level":"info","event":"DEBUG: Feature text: 'غرفتين'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.789447Z","level":"info","event":"DEBUG: Found bedroom text: 'غرفتين', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.789950Z","level":"info","event":"DEBUG: Extracted bedrooms: 2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.861259Z","level":"info","event":"DEBUG: Feature text: '400  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.861782Z","level":"info","event":"DEBUG: Feature text: '4  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.862130Z","level":"info","event":"DEBUG: Found bedroom text: '4  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.862459Z","level":"info","event":"DEBUG: Extracted bedrooms: 4","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.920204Z","level":"info","event":"DEBUG: Feature text: '152.15  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.920980Z","level":"info","event":"DEBUG: Feature text: '5  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.921374Z","level":"info","event":"DEBUG: Found bedroom text: '5  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.921752Z","level":"info","event":"DEBUG: Extracted bedrooms: 5","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.983253Z","level":"info","event":"DEBUG: Feature text: '340.98  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.983764Z","level":"info","event":"DEBUG: Feature text: '5  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.984088Z","level":"info","event":"DEBUG: Found bedroom text: '5  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:51.984426Z","level":"info","event":"DEBUG: Extracted bedrooms: 5","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:52.042456Z","level":"info","event":"DEBUG: Feature text: '1,830.96  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:52.201894Z","level":"info","event":"DEBUG: Feature text: '326.37  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:52.213794Z","level":"info","event":"DEBUG: Feature text: ''","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:52.345831Z","level":"info","event":"DEBUG: Feature text: '249.78  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:52.347677Z","level":"info","event":"DEBUG: Feature text: '6  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:52.348719Z","level":"info","event":"DEBUG: Found bedroom text: '6  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:52.354072Z","level":"info","event":"DEBUG: Extracted bedrooms: 6","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:52.511009Z","level":"info","event":"DEBUG: Feature text: '162  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:52.512463Z","level":"info","event":"DEBUG: Feature text: '5  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:52.513002Z","level":"info","event":"DEBUG: Found bedroom text: '5  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:52.513642Z","level":"info","event":"DEBUG: Extracted bedrooms: 5","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:52.631375Z","level":"info","event":"DEBUG: Feature text: '360  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:52.632262Z","level":"info","event":"DEBUG: Feature text: '3  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:52.632796Z","level":"info","event":"DEBUG: Found bedroom text: '3  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:52.633461Z","level":"info","event":"DEBUG: Extracted bedrooms: 3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:52.633962Z","level":"info","event":"DEBUG: Feature text: '4 حمام'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:52.729061Z","level":"info","event":"DEBUG: Feature text: '900  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:52.746299Z","level":"info","event":"DEBUG: Feature text: '7  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:52.750831Z","level":"info","event":"DEBUG: Found bedroom text: '7  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:52.753359Z","level":"info","event":"DEBUG: Extracted bedrooms: 7","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:52.851181Z","level":"info","event":"DEBUG: Feature text: '375  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:52.853849Z","level":"info","event":"DEBUG: Feature text: '4  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:52.854562Z","level":"info","event":"DEBUG: Found bedroom text: '4  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:52.855380Z","level":"info","event":"DEBUG: Extracted bedrooms: 4","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:52.995885Z","level":"info","event":"DEBUG: Feature text: '360  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:52.997736Z","level":"info","event":"DEBUG: Feature text: '4  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:53.000521Z","level":"info","event":"DEBUG: Found bedroom text: '4  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:53.015137Z","level":"info","event":"DEBUG: Extracted bedrooms: 4","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:53.171153Z","level":"info","event":"DEBUG: Feature text: '189.65  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:53.172125Z","level":"info","event":"DEBUG: Feature text: '3  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:53.173232Z","level":"info","event":"DEBUG: Found bedroom text: '3  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:53.174603Z","level":"info","event":"DEBUG: Extracted bedrooms: 3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:53.355563Z","level":"info","event":"DEBUG: Feature text: '360  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:53.356347Z","level":"info","event":"DEBUG: Feature text: '4  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:53.356835Z","level":"info","event":"DEBUG: Found bedroom text: '4  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:53.357350Z","level":"info","event":"DEBUG: Extracted bedrooms: 4","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:53.359782Z","level":"info","event":"DEBUG: Feature text: '7 حمام'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:53.474583Z","level":"info","event":"DEBUG: Feature text: '875  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:53.754819Z","level":"info","event":"DEBUG: Feature text: '287  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:53.775072Z","level":"info","event":"DEBUG: Feature text: '7  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:53.790818Z","level":"info","event":"DEBUG: Found bedroom text: '7  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:53.803291Z","level":"info","event":"DEBUG: Extracted bedrooms: 7","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:53.804099Z","level":"info","event":"DEBUG: Feature text: '6 حمام'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:53.997681Z","level":"info","event":"DEBUG: Feature text: '450  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:54.019504Z","level":"info","event":"DEBUG: Feature text: '7  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:54.034524Z","level":"info","event":"DEBUG: Found bedroom text: '7  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:54.040420Z","level":"info","event":"DEBUG: Extracted bedrooms: 7","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:54.041303Z","level":"info","event":"DEBUG: Feature text: '7 حمام'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:54.164593Z","level":"info","event":"DEBUG: Feature text: '510  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:54.166281Z","level":"info","event":"DEBUG: Feature text: '5  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:54.166796Z","level":"info","event":"DEBUG: Found bedroom text: '5  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:54.167404Z","level":"info","event":"DEBUG: Extracted bedrooms: 5","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:54.379288Z","level":"info","event":"DEBUG: Feature text: '106  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:54.388187Z","level":"info","event":"DEBUG: Feature text: 'غرفتين'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:54.400542Z","level":"info","event":"DEBUG: Found bedroom text: 'غرفتين', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:54.402624Z","level":"info","event":"DEBUG: Extracted bedrooms: 2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:54.405687Z","level":"info","event":"DEBUG: Feature text: '3 حمام'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:54.607309Z","level":"info","event":"DEBUG: Feature text: '157  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:54.616791Z","level":"info","event":"DEBUG: Feature text: 'غرفتين'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:54.623166Z","level":"info","event":"DEBUG: Found bedroom text: 'غرفتين', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:54.628956Z","level":"info","event":"DEBUG: Extracted bedrooms: 2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:54.632821Z","level":"info","event":"DEBUG: Feature text: '1  حمام'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:54.811014Z","level":"info","event":"DEBUG: Feature text: '250  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:54.826624Z","level":"info","event":"DEBUG: Feature text: ''","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:55.092462Z","level":"info","event":"DEBUG: Feature text: '400  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:55.102469Z","level":"info","event":"DEBUG: Feature text: '3  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:55.115718Z","level":"info","event":"DEBUG: Found bedroom text: '3  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:55.136022Z","level":"info","event":"DEBUG: Extracted bedrooms: 3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:55.294179Z","level":"info","event":"DEBUG: Feature text: '337.35  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:55.529643Z","level":"info","event":"DEBUG: Feature text: '812  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:55.531781Z","level":"info","event":"DEBUG: Feature text: '5  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:55.532675Z","level":"info","event":"DEBUG: Found bedroom text: '5  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:55.540305Z","level":"info","event":"DEBUG: Extracted bedrooms: 5","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:55.580796Z","level":"info","event":"DEBUG: Feature text: '4 حمام'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:55.777352Z","level":"info","event":"DEBUG: Feature text: '144  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:55.786314Z","level":"info","event":"DEBUG: Feature text: '4  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:55.814086Z","level":"info","event":"DEBUG: Found bedroom text: '4  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:55.816348Z","level":"info","event":"DEBUG: Extracted bedrooms: 4","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:55.819282Z","level":"info","event":"DEBUG: Feature text: 'حمامين'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:56.028107Z","level":"info","event":"DEBUG: Feature text: '598  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:56.043938Z","level":"info","event":"DEBUG: Feature text: '7  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:56.045937Z","level":"info","event":"DEBUG: Found bedroom text: '7  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:56.047331Z","level":"info","event":"DEBUG: Extracted bedrooms: 7","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:56.057040Z","level":"info","event":"DEBUG: Feature text: '7 حمام'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:56.277990Z","level":"info","event":"DEBUG: Feature text: '8  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:56.471370Z","level":"info","event":"DEBUG: Feature text: '5,000  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:56.476386Z","level":"info","event":"DEBUG: Feature text: '7  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:56.477181Z","level":"info","event":"DEBUG: Found bedroom text: '7  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:56.477810Z","level":"info","event":"DEBUG: Extracted bedrooms: 7","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:56.594500Z","level":"info","event":"DEBUG: Feature text: '300  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:56.845585Z","level":"info","event":"DEBUG: Feature text: '437  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:57.051443Z","level":"info","event":"DEBUG: Feature text: '138  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:57.052506Z","level":"info","event":"DEBUG: Feature text: '3  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:57.054987Z","level":"info","event":"DEBUG: Found bedroom text: '3  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:57.055528Z","level":"info","event":"DEBUG: Extracted bedrooms: 3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:57.056185Z","level":"info","event":"DEBUG: Feature text: '3 حمام'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:57.164707Z","level":"info","event":"DEBUG: Feature text: '117  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:57.167887Z","level":"info","event":"DEBUG: Feature text: '3  غرف'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:57.170148Z","level":"info","event":"DEBUG: Found bedroom text: '3  غرف', extracting number...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:57.170774Z","level":"info","event":"DEBUG: Extracted bedrooms: 3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:57.172277Z","level":"info","event":"DEBUG: Feature text: '3 حمام'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:57.292388Z","level":"info","event":"DEBUG: Feature text: '387  م²'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T21:45:57.300889","level":"info","event":"Successfully found properties with URL 1","logger":"scraper"}
+{"timestamp":"2025-07-20T21:45:57.301151","level":"info","event":"Successfully scraped 78 unique properties from DealApp","logger":"scraper"}
+{"timestamp":"2025-07-20T21:45:57.585508","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

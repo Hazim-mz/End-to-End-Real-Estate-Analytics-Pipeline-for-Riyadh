@@ -1,0 +1,25 @@
+{"timestamp":"2025-07-20T08:07:49.063964","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-20T08:07:49.064491","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/etl_pipeline.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-20T08:07:49.618735","level":"warning","event":"Passing literal json to 'read_json' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.","category":"FutureWarning","filename":"/opt/airflow/dags/etl_pipeline.py","lineno":40,"logger":"py.warnings"}
+{"timestamp":"2025-07-20T08:07:49.714049","level":"info","event":"Successfully connected to PostgreSQL database","logger":"loader"}
+{"timestamp":"2025-07-20T08:07:49.817318","level":"info","event":"Database tables created successfully","logger":"loader"}
+{"timestamp":"2025-07-20T08:07:51.674054","level":"info","event":"Successfully loaded 10041 properties to database from DataFrame","logger":"loader"}
+{"timestamp":"2025-07-20T08:07:51.674357","level":"info","event":"Starting comprehensive analysis...","logger":"loader"}
+{"timestamp":"2025-07-20T08:07:51.785870","level":"info","event":"Analysis tables and views created successfully","logger":"loader"}
+{"timestamp":"2025-07-20T08:07:51.928616","level":"info","event":"Correlation analysis completed","logger":"loader"}
+{"timestamp":"2025-07-20T08:07:51.943019","level":"error","event":"Error in sales valuation analysis: unsupported operand type(s) for /: 'decimal.Decimal' and 'float'","logger":"loader"}
+{"timestamp":"2025-07-20T08:07:52.009357","level":"info","event":"Average price tables populated successfully","logger":"loader"}
+{"timestamp":"2025-07-20T08:07:52.035420","level":"info","event":"Yasameen 3BR report populated successfully","logger":"loader"}
+{"timestamp":"2025-07-20T08:07:52.076591","level":"error","event":"Error loading analysis results: 'Connection' object has no attribute 'commit'","logger":"loader"}
+{"timestamp":"2025-07-20T08:07:52.076886","level":"info","event":"Comprehensive analysis report generated successfully","logger":"loader"}
+{"timestamp":"2025-07-20T08:07:52.077058","level":"info","event":"Complete analysis finished successfully","logger":"loader"}
+{"timestamp":"2025-07-20T08:07:52.077170","level":"info","event":"Created dedicated analysis tables:","logger":"loader"}
+{"timestamp":"2025-07-20T08:07:52.077272","level":"info","event":"- rent_increase_analysis","logger":"loader"}
+{"timestamp":"2025-07-20T08:07:52.077365","level":"info","event":"- correlation_analysis","logger":"loader"}
+{"timestamp":"2025-07-20T08:07:52.077569","level":"info","event":"- sales_valuation_analysis","logger":"loader"}
+{"timestamp":"2025-07-20T08:07:52.077682","level":"info","event":"- avg_price_by_location","logger":"loader"}
+{"timestamp":"2025-07-20T08:07:52.077781","level":"info","event":"- avg_price_by_bedroom","logger":"loader"}
+{"timestamp":"2025-07-20T08:07:52.077877","level":"info","event":"- yasameen_3br_report","logger":"loader"}
+{"timestamp":"2025-07-20T08:07:52.077964","level":"info","event":"Created 0 recommendations","logger":"loader"}
+{"timestamp":"2025-07-20T08:07:52.078652","level":"info","event":"Database connection closed","logger":"loader"}
+{"timestamp":"2025-07-20T08:07:52.089322","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

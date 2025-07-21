@@ -1,0 +1,29 @@
+{"timestamp":"2025-07-19T22:48:18.387559","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-19T22:48:18.388472","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/etl_pipeline.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-19T22:48:20.439024","level":"info","event":"====== WebDriver manager ======","logger":"WDM"}
+{"timestamp":"2025-07-19T22:48:20.641286","level":"info","event":"Get LATEST chromedriver version for google-chrome","logger":"WDM"}
+{"timestamp":"2025-07-19T22:48:21.026840","level":"info","event":"Get LATEST chromedriver version for google-chrome","logger":"WDM"}
+{"timestamp":"2025-07-19T22:48:21.406329","level":"info","event":"Driver [/opt/airflow/scripts/.wdm/drivers/chromedriver/linux64/138.0.7204.157/chromedriver-linux64/THIRD_PARTY_NOTICES.chromedriver] found in cache","logger":"WDM"}
+{"timestamp":"2025-07-19T22:48:21.425940","level":"warning","event":"ChromeDriver setup failed: [Errno 8] Exec format error: '/opt/airflow/scripts/.wdm/drivers/chromedriver/linux64/138.0.7204.157/chromedriver-linux64/THIRD_PARTY_NOTICES.chromedriver'","logger":"scraper"}
+{"timestamp":"2025-07-19T22:48:22.661523","level":"info","event":"Chrome driver initialized with system Chrome","logger":"scraper"}
+{"timestamp":"2025-07-19T22:48:22.662163","level":"info","event":"Starting DealApp scraping with max_properties=5000...","logger":"scraper"}
+{"timestamp":"2025-07-19T22:48:22.662307","level":"info","event":"Navigating to https://dealapp.sa/ar/عقارات/الرياض/جميع_العقارات/بيع_و_إيجار","logger":"scraper"}
+{"timestamp":"2025-07-19T22:48:26.384694","level":"info","event":"Listings page loaded","logger":"scraper"}
+{"timestamp":"2025-07-19T22:48:29.385380","level":"info","event":"Applying filters for city: الرياض, district: None","logger":"scraper"}
+{"timestamp":"2025-07-19T22:48:29.406691","level":"info","event":"Checking available filter elements...","logger":"scraper"}
+{"timestamp":"2025-07-19T22:48:29.493688","level":"info","event":"Found 507 total elements on page","logger":"scraper"}
+{"timestamp":"2025-07-19T22:48:29.537737","level":"info","event":"Filters applied successfully","logger":"scraper"}
+{"timestamp":"2025-07-19T22:48:31.538422","level":"info","event":"Starting scroll to load properties (max: 5000)...","logger":"scraper"}
+{"timestamp":"2025-07-19T22:48:36.567142","level":"info","event":"Attempt 1: Found 10 properties","logger":"scraper"}
+{"timestamp":"2025-07-19T22:48:39.636721","level":"info","event":"Attempt 2: Found 10 properties","logger":"scraper"}
+{"timestamp":"2025-07-19T22:48:42.691156","level":"info","event":"Attempt 3: Found 10 properties","logger":"scraper"}
+{"timestamp":"2025-07-19T22:48:45.771876","level":"info","event":"Attempt 4: Found 10 properties","logger":"scraper"}
+{"timestamp":"2025-07-19T22:48:45.772082","level":"info","event":"No new properties found for 3 attempts, trying alternative methods","logger":"scraper"}
+{"timestamp":"2025-07-19T22:48:47.799409","level":"info","event":"Found infinite scroll element, triggering manually","logger":"scraper"}
+{"timestamp":"2025-07-19T22:48:50.273495","level":"info","event":"Still no new content after all alternative methods, trying one more time with longer wait","logger":"scraper"}
+{"timestamp":"2025-07-19T22:48:55.289852","level":"info","event":"No new content after extended wait, stopping","logger":"scraper"}
+{"timestamp":"2025-07-19T22:48:55.290156","level":"info","event":"Scrolling completed after 4 attempts","logger":"scraper"}
+{"timestamp":"2025-07-19T22:48:55.304925","level":"info","event":"Found 10 property cards after scrolling","logger":"scraper"}
+{"timestamp":"2025-07-19T22:48:55.305097","level":"info","event":"Processing card 1/10","logger":"scraper"}
+{"timestamp":"2025-07-19T22:48:57.635935","level":"info","event":"Successfully scraped 10 unique properties from DealApp","logger":"scraper"}
+{"timestamp":"2025-07-19T22:48:57.798160","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

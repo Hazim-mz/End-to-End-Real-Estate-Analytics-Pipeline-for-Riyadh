@@ -1,0 +1,11 @@
+{"timestamp":"2025-07-20T10:34:01.642372","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-20T10:34:01.643001","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/etl_pipeline.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-20T10:34:02.121898","level":"warning","event":"Passing literal json to 'read_json' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.","category":"FutureWarning","filename":"/opt/airflow/dags/etl_pipeline.py","lineno":31,"logger":"py.warnings"}
+{"timestamp":"2025-07-20T10:34:02.141288","level":"info","event":"Loading only the historical data file...","logger":"transformer"}
+{"timestamp":"2025-07-20T10:34:03.105346","level":"info","event":"Loaded 99969 records from data/raw/realstate_data_2014_2016.csv (utf-8)","logger":"transformer"}
+{"timestamp":"2025-07-20T10:34:03.108432","level":"info","event":"Total raw records loaded: 99969","logger":"transformer"}
+{"timestamp":"2025-07-20T10:34:03.476526","level":"info","event":"Warehouse data saved to data/warehouse/riyadh_yasmeen_malga.csv","logger":"transformer"}
+{"timestamp":"2025-07-20T10:34:03.476871","level":"info","event":"Data quality report saved to data/warehouse/quality_report.json","logger":"transformer"}
+{"timestamp":"2025-07-20T10:34:03.519907","level":"warning","event":"The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.","category":"FutureWarning","filename":"/opt/airflow/scripts/transformer.py","lineno":224,"logger":"py.warnings"}
+{"timestamp":"2025-07-20T10:34:03.556249","level":"info","event":"Merged 10021 historical records with 18 scraped records","logger":"transformer"}
+{"timestamp":"2025-07-20T10:34:03.665409","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
